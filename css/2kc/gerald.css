@@ -1,0 +1,127 @@
+/* Bonus Group Detail */
+.ua-cont-bgd {
+    height: 465px;
+    margin-bottom: 25px;
+    padding: 0 54px 0 54px;
+    overflow-x: auto;
+}
+
+.ua-cont-bgd p {
+  line-height: 22px;
+  margin-top: 16px;
+  letter-spacing: 0.5px;
+  word-wrap: break-word;
+}
+
+.ua-botton-margin {
+  margin-top: 40px;
+}
+
+.ua-cont-text-center {
+  text-align: center
+}
+
+.ua-cont-dashed-line {
+    border-bottom: 2px dashed #4c4554 !important;
+    margin-top: 5px;
+}
+
+/*  pop warning - information confirmation */
+.warn-info-confirm {
+  padding: 0 48px 0 48px;
+  height: auto;
+  overflow-x: auto;
+  margin-bottom: 0;
+}
+
+.warn-info-confirm * {
+  color: #fff;
+}
+
+.warn-info-confirm h1 {
+  font-size: 16px;
+  margin-top: -16px;
+  margin-bottom: 16px;
+}
+
+.warn-info-confirm p {
+  padding: 0;
+  margin: 2px;
+  margin-left: 35px;
+  text-align: left;
+}
+
+/* pop enrolment */
+.ua-cont-enrolment {
+  height: auto;
+  padding: 0 70px 0 70px;
+}
+
+.ua-cont-enrolment h1 {
+  font-size: 18px;
+}
+
+.ua-flex-no-border {
+  border: none !important;
+}
+
+.ua-flex-no-border * {
+  height: 25px;
+}
+
+.ua-flex-grid {
+  display: flex;
+  flex-flow: row; 
+  flex-wrap: wrap;
+}
+
+.ua-flex-grid > .text-indent-50 {
+  text-indent: 50px;
+}
+
+.ua-flex-grid > .text-right {
+  text-align: right;
+}
+
+.ua-flex-grid-60 {
+  width: 60%;
+  padding: 
+}
+
+.ua-flex-grid-40 {
+  width: 40%;
+}
+
+/* ui navigation selection */
+.ui-selection-nav-transparent {
+  display: flex;
+  flex-flow: row; 
+  flex-wrap: wrap;
+  
+  height: 45px;
+  width: 315px;
+  margin: auto;
+  margin-top: 25px;
+}
+.ui-selection-nav-transparent * {
+    height: 45px;
+    width: 14%;
+    line-height: 45px;
+    text-align: center;
+}
+
+.ua-cont-enrolment > .ua-botton-margin {
+    margin-top: 16px;
+}
+
+.active-number {
+  background: url("../images/betting-sprites.png") no-repeat -404px -182px;
+}
+
+.ui-selection-nav-transparent-start {
+  background: url("../images/betting-sprites.png") no-repeat -320px -182px;
+}
+
+.ui-selection-nav-transparent-end {
+  background: url("../images/betting-sprites.png") no-repeat -363px -182px;
+}
