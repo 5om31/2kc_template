@@ -1,0 +1,4999 @@
+@import "lora.css" screen;
+@import "gerald.css" screen;
+
+*
+{
+	font-size: 15px;
+	font-family: "Microsoft YaHei", Arial, serif; 
+	font-family: Arial, "Microsoft YaHei", serif\9; 
+	letter-spacing: 1px;
+}
+li {
+  list-style: none;
+}
+
+body *
+{
+	font-size: 15px;
+}
+.blueText {
+	color: #27a7f1;
+}
+.rounded
+{
+  border-radius: 5px 5px 5px 5px;
+  -ms-border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  position: relative;
+  behavior: url(./css3pie/PIE.htc);
+}
+
+
+.icon {
+	  background-image: url("../images/icons.png");
+}
+
+.btn {
+  cursor: pointer;
+}
+
+/* onel */
+
+.inline-block {
+	display: inline-block;
+	vertical-align: top;
+}
+.wrapper {
+	position: relative;
+	margin: 0 auto;
+	width: 1200px;
+}
+.header-wrp {
+  /* margin: 0 auto;
+  max-width: 1366px;
+  width: 100%; */
+}
+.header {
+	background-color: #7c7c7c;
+	height: 42px;
+	padding: 8px 0;
+}
+
+
+.footer {
+  background-color: #fa3232;
+  bottom: 0;
+  height: 50px;
+  left: 0;
+  width: 100%;
+
+}
+/* .the-page-content {
+  padding-bottom: 10.3%;
+} */
+
+#remodalSideMenu .sb-text {
+  color: #fff;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+}
+.sub-main-wrp dd {
+  margin-top: 2px;
+  cursor: pointer;
+}
+.sub-main-wrp dd:first-child {
+  margin: 0;
+}
+#remodalSideMenu {
+  padding: 30px 0;
+  margin: 0;
+}
+.footer p {
+	color: #fff;
+	text-align: center;
+	line-height: 50px;
+    margin-top: 0;
+}
+dl.sub-menu-content {
+  text-align: left;
+}
+.announcement-icon {
+    margin-left: 15px;
+    text-indent: 15px;
+    border-left: 1px solid #989595;
+}
+
+.announcement-icon img {
+    padding-left: 15px;
+    padding-right: 5px;
+    float: left;
+}
+.logged-in .announcement-icon #marquee{
+  width: 340px !important;
+
+}
+.announcement-icon #marquee{
+  width: 540px;
+  height: 22px;
+  overflow: hidden;
+  float: left;
+}
+
+.announcement-icon #marquee div{
+  text-align: left
+}
+.header-wrp.wrapper.clearfix {
+  left: 7px;
+  position: relative;
+}
+.header-logo {
+   /* padding: 8px; */
+}
+.header-logo {
+  left: -6px;
+  margin-right: 4px;
+  position: relative;
+  top: 1px;
+}
+.menu-list ul {
+    line-height: 45px;
+}
+
+.menu-list ul li {
+	display: inline-block;
+	padding-left: 20px;
+}
+.menu-con {
+  margin: 0 0 9px 0 ;
+}
+
+.menu-list ul li a {
+	color: #666666;
+	display: block;
+}
+
+.dl-btn a span {
+    color: #818181;
+    font-size: 15px;
+}
+
+.dl-btn img {
+    margin-left: 19px;
+}
+
+.menu-list ul li a:hover {
+	color: #fa3232;
+}
+
+.hide {
+	display:none;
+}
+
+.dl-btn a{
+   display: block;
+}
+
+/* login */
+
+.onel-line {
+    border-left: 1px solid #989595;
+    margin-left: 7px !important;
+    text-indent: 15px;
+    width: 3px;
+}
+.header-btns {
+	position: relative;
+}
+
+.header-btns div{
+	display: inline-block;	
+	float: left;
+	margin-left: 5px;
+    height: 28px;
+}
+
+.hb-ico + div
+{
+	line-height: 28px;
+}
+
+.header-btns a {
+	display: block;
+	line-height: 28px;
+}
+
+.login-nam, .money-amount {
+    position: relative;
+}
+
+
+.money-ico, .login-ico {
+	height: 30px;
+	width: 30px;
+}
+
+.money-ico {
+	cursor: pointer;
+}
+
+.money-amount a{
+	display: inline-block;
+}
+
+/* .logout-ico {
+	height: 35px !important;
+	width: 28px;
+} */
+
+.login-ico {
+    background: url("../images/icons.png") -80px -370px;
+}
+
+.money-ico {
+    background: url("../images/icons.png") -80px -405px;
+}
+
+.logout-ico a, .logout-ico span {
+    background: url("../images/icons.png") no-repeat;
+} 
+
+/* .logout-ico:hover {
+    background-position: -83px -498px;
+} */
+
+/* .logout-ico a:active {
+    background-position: -83px -547px;
+} */
+
+/* .money-deposit {
+	background-color: #66d469;
+}
+
+.money-withdrawal {
+	background-color: #27a2c6;
+} */
+
+.money-withdrawal, .money-deposit {
+	text-align: center;
+	/* width: 65px;
+	height: 25px; */
+	/* border-radius: 20px;
+	-ms-border-radius: 20px 20px 20px 20px;
+	-moz-border-radius: 20px 20px 20px 20px;
+	-webkit-border-radius: 20px 20px 20px 20px; */
+	position: relative;
+	/* behavior: url(./css3pie/PIE.htc); */
+}
+
+/* FLOATING SIDE-BAR */
+
+
+.tz_bet_wrp {
+  border-top-color: #ddd;
+  border-top-style: solid;
+  border-top-width: 1px;
+  height: 54px;
+  padding-bottom: 10px;
+  padding-left: 24px;
+  padding-right: 25px;
+  padding-top: 3px;
+}
+
+#leftMenu.sidebar-con {
+  background-color: #ececec;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  left: 0;
+  padding-bottom: 6px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 10px;
+  position: absolute;
+  width: 64px;
+  z-index: 1;
+}
+.sec-home {
+  position: relative;
+
+}
+.home .sidebar-con {
+  top: 10px;
+}
+.sb-wrapper {
+	text-align: center;
+
+}
+
+.sb-icons {
+	height: 53px;
+	background-image: url("../images/icons.png");
+	width: auto;
+}
+
+.sidebar-con a {
+	color: #818181;
+	display: block;
+}
+
+.sb-deposit {
+    background-position: 0 -352px;
+}
+
+.sb-withdrawal {
+   background-position: 0 -404px;
+}
+
+.sb-personal {
+    background-position: 0 -456px;
+}
+
+.sb-agent {
+    background-position: 0 -509px;
+}
+
+.sb-message {
+   background-position: 0 -559px;
+}
+.sb-cservice {
+   background-position: 0 -610px;
+}
+
+.sb-help {
+   background-position: 0 -661px;
+}
+
+.sb-deposit:hover {
+   background-position: -286px -9px;
+}
+
+.sb-withdrawal:hover {
+   background-position: -286px -68px;
+}
+
+.sb-personal:hover {
+  background-position: -286px -125px;
+}
+
+.sb-agent:hover {
+   background-position: -286px -185px;
+}
+
+.sb-message:hover {
+  background-position: -286px -242px;
+}
+.sb-cservice:hover {
+  background-position: -286px -300px;
+}
+
+.sb-help:hover {
+  background-position: -286px -358px;
+}
+
+
+/* content */
+
+.slider-con {
+	height: 334px;
+	width: 918px;
+}
+
+.slider-menu {
+  /* background-color: #7c7d8d;
+  border-radius: 5px 0 0 5px;
+  -ms-border-radius: 5px 0 0 5px;
+  -moz-border-radius: 5px 0 0 5px;
+  -webkit-border-radius: 5px 0 0 5px;
+  box-shadow: 1px 5px 6px #cbcbcb; */
+ /*  box-shadow: 9px 4px 4px #cbcbcb; */
+  /* height: 100%;
+  width: 213px;
+  position: relative;
+  padding: 18px 0; */
+/*   behavior: url(./css3pie/PIE.htc); */
+}
+
+.slider-menu .sm-link {
+  cursor: pointer;
+  display: block;
+  margin: auto 0;
+  padding: 5px 15px 10px;
+  position: relative;
+  top: -2px;
+  width: 213px;
+}
+.slider-menu a {
+    line-height: 55px;
+	display: block;
+}
+
+.slider-g-t {
+  color: #fff;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-top: 18px;
+}
+.sm-link:hover {
+    background-color: #565459;
+	-webkit-transition: all .1s ease-in;
+	-moz-transition: all .1s ease-in;
+	-ms-transition: all .1s ease-in;
+	-o-transition: all .1s ease-in;
+	transition: all .1s ease-in;
+}
+
+.SSC {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("../images/icons.png");
+  background-origin: padding-box;
+  background-position: 0 -99px;
+  background-repeat: repeat;
+  background-size: auto auto;
+  cursor: pointer;
+  height: 60px;
+  text-indent: 70px;
+  width: 65px;
+  background-repeat: no-repeat;
+  background-position:0 -99px;
+}
+
+.fx11x5 {
+    height: 60px;
+    width: 65px;
+    background: url("../images/icons.png");
+	background-position: -0px -163px;
+    text-indent: 70px;
+}
+
+.LF {
+    height: 60px;
+    width: 65px;
+    background: url("../images/icons.png");
+	background-position: -0px -225px;
+    text-indent: 70px;
+}
+
+.pvp_game {
+    height: 60px;
+    width: 65px;
+    background: url("../images/icons.png");
+	background-position: -0px -289px;
+    text-indent: 70px;
+}
+
+.slider-menu .sm-link:hover .SSC {
+	background: url("../images/icons.png"); 
+	background-position: -63px -99px;
+}
+
+.slider-menu .sm-link:hover .fx11x5 {
+	background: url("../images/icons.png");
+	background-position: -63px -163px;
+}
+
+.slider-menu .sm-link:hover .LF {
+	background: url("../images/icons.png");
+	background-position: -63px -225px;
+}
+
+.slider-menu .sm-link:hover .pvp_game {
+	background: url("../images/icons.png");
+	background-position: -63px -289px;
+}
+/*************************sidebar*/
+.side-bar {
+  height: 640px;
+  width: 280px;
+  margin-top: 11px;
+  text-align: center;  
+}
+.main-slider.inline-block {
+  margin-left: -5px;
+  margin-top: -3px;
+  width: 699px;
+  position: relative;
+}
+.nav.selected {
+	border-color: #FE0404;
+}
+.profile-wrp {
+  text-align: center;
+  /* padding: 20px 0 5px 0px ; */
+}
+.icon.profile-icon {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("../images/icons.png");
+  background-origin: padding-box;
+  background-position: -7px -19px;
+  background-repeat: repeat;
+  background-size: auto auto;
+  display: block;
+  height: 80px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  width: 80px;
+}
+.sbmt-center {
+  left: 4px;
+  position: relative;
+  top: 6px;
+}
+.lg-input-text.rs-login-input2 {
+  position: relative;
+  top: 5px;
+  left: 2px;
+}
+#registerForm .lg-input-text {
+  height: 38px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6px;
+  width: 205px;
+}
+.lg-input-text {
+  height: 38px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6px;
+  width: 205px;
+}
+.ch-inpt {
+  background-clip: border-box;
+  background-color: transparent;
+  background-image: url("../images/icons.png");
+  background-origin: padding-box;
+  background-position: -69px 146px;
+  background-repeat: repeat;
+  background-size: auto auto;
+  border-color: -moz-use-text-color;
+  border-image: none;
+  border-style: none;
+  border-width: 0;
+  color: #818181;
+  height: 37px;
+  padding: 0 13px 0 15px;
+  width: 100%;
+  line-height: 35px;
+}
+
+.sbmt-center {
+  background-color: transparent;
+  background-image: url("../images/icons.png");
+  background-origin: padding-box;
+  background-position: -57px 97px;
+  background-repeat: repeat;
+  background-size: auto auto;
+  border-color: -moz-use-text-color;
+  border-image: none;
+  border-style: none;
+  border-width: 0;
+  height: 55px;
+  margin: 10px auto 0;
+  width: 229px;
+}
+.red-submt-btn {
+  background: transparent none repeat scroll 0 0;
+  border: 0 none;
+  height: 38px;
+  width: 100%;
+}
+
+.sbmt-center:active {
+	background-position: -118px 325px;
+}
+.input-bind-wrp .longText .qpAmount-input {
+  color: #aea6a6;
+  font-weight: normal;
+  padding: 0 10px;
+  text-align: left;
+}
+.side-bg {
+  background-color: #dfd8f7;
+  background-image: url("../images/side.jpg");
+  background-repeat: repeat-x;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-top: 1px;
+  position: relative;
+  right: -5px;
+  text-align: center;
+}
+.lower-btn a {
+  color: #888888;
+  /* margin: 15px 30px; */
+  cursor: pointer;
+}
+.news-tab.active {
+  background: #818181 none repeat scroll 0 0;
+  border-radius: 17px 17px 17px 17px;
+  -ms-border-radius: 17px 17px 17px 17px;
+  -moz-border-radius: 17px 17px 17px 17px;
+  -webkit-border-radius: 17px 17px 17px 17px;
+  color: #fff;
+  padding: 2px 11px;
+  /* position: relative; */
+  behavior: url(./css3pie/PIE.htc);
+}
+.news-tab {
+  color: #888;
+  display: inline-block;
+}	
+.news-date {
+  display: block;
+}
+.news-content {
+  padding: 10px 0 0 0;
+  text-align: left;
+}
+.news-content span {
+  color: #888;
+  font-size: 12px;
+} 
+.news-section-content {
+  border-bottom: 1px solid #cccccc;
+  padding: 10px 0;
+  text-align: left;
+}
+/* .news-section-wrp {
+  margin-top: 18px;
+} */	
+.news-section-wrp {
+  top: 7px;
+}
+.news-section-header span {
+  right: 0;
+}
+.news-section-wrp .news-section
+{
+	padding: 0 10px;
+} 	
+/********************box*/
+.box-main-wrp {
+  /* margin-top: 8px; */
+  text-align: left;
+}
+.box-main-wrp .box {
+  border-radius: 5px 5px 5px 5px;
+  -ms-border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  height: 205px;
+  margin: 0 6px;
+  width: 215px;
+  position: relative;
+  behavior: url(./css3pie/PIE.htc);
+} 	
+.box-title {
+  display: block;
+  font-family: sans-serif;
+  font-size: 31px;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 36px;
+  text-align: center;
+}
+.box em {
+  display: block;
+  font-size: 12px;
+  margin: 10px 0 5px;
+  text-align: center;
+}
+.time-box {
+  display: block;
+  font-size: 28px;
+  text-align: center;
+  font-family: Arial;
+}
+.boxType .CQSSC {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: #ff0000;
+  background-image: url("../images/red.png");
+  background-origin: padding-box;
+  background-position: 0 0;
+  background-repeat: repeat-x;
+  background-size: auto auto;
+}
+
+.boxType .T2KFFC {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f9c614+0,fb9101+100 */
+background: #f9c614; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y5YzYxNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmYjkxMDEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #f9c614 0%, #fb9101 100%); /* FF3.6-15 */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9c614), color-stop(100%,#fb9101)); /* Chrome4-9,Safari4-5 */
+background: -webkit-linear-gradient(top,  #f9c614 0%,#fb9101 100%); /* Chrome10-25,Safari5.1-6 */
+background: -o-linear-gradient(top,  #f9c614 0%,#fb9101 100%); /* Opera 11.10-11.50 */
+background: -ms-linear-gradient(top,  #f9c614 0%,#fb9101 100%); /* IE10 preview */
+background: linear-gradient(to bottom,  #f9c614 0%,#fb9101 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9c614', endColorstr='#fb9101',GradientType=0 ); /* IE6-8 */
+}
+
+.boxType .HLJSSC {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#5758f7+0,d77bfc+100 */
+background: #5758f7; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzU3NThmNyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkNzdiZmMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #5758f7 0%, #d77bfc 100%); /* FF3.6-15 */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5758f7), color-stop(100%,#d77bfc)); /* Chrome4-9,Safari4-5 */
+background: -webkit-linear-gradient(top,  #5758f7 0%,#d77bfc 100%); /* Chrome10-25,Safari5.1-6 */
+background: -o-linear-gradient(top,  #5758f7 0%,#d77bfc 100%); /* Opera 11.10-11.50 */
+background: -ms-linear-gradient(top,  #5758f7 0%,#d77bfc 100%); /* IE10 preview */
+background: linear-gradient(to bottom,  #5758f7 0%,#d77bfc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5758f7', endColorstr='#d77bfc',GradientType=0 ); /* IE6-8 */
+}
+
+
+.boxType .XJSSC {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a271fb+0,4e0ec3+100 */
+background: #a271fb; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2EyNzFmYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0ZTBlYzMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #a271fb 0%, #4e0ec3 100%); /* FF3.6-15 */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a271fb), color-stop(100%,#4e0ec3)); /* Chrome4-9,Safari4-5 */
+background: -webkit-linear-gradient(top,  #a271fb 0%,#4e0ec3 100%); /* Chrome10-25,Safari5.1-6 */
+background: -o-linear-gradient(top,  #a271fb 0%,#4e0ec3 100%); /* Opera 11.10-11.50 */
+background: -ms-linear-gradient(top,  #a271fb 0%,#4e0ec3 100%); /* IE10 preview */
+background: linear-gradient(to bottom,  #a271fb 0%,#4e0ec3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a271fb', endColorstr='#4e0ec3',GradientType=0 ); /* IE6-8 */
+
+}
+
+
+.slider-menu .XJSSC:before {
+  background-position: -100px -10px;
+  border-radius: 30px;
+  content: "";
+  display: block;
+  height: 26px;
+  left: -40px;
+  position: absolute;
+  width: 26px;
+}
+.btn.hm-btn.icon:hover {
+  background-position: -99px -19px;
+  /* font-family: "DFKai-SB", "Microsoft YaHei", Arial, serif; */
+  height: 44px;
+  /* line-height: 33px; */
+  margin: 0 auto;
+  text-align: center;
+  width: 112px;
+}
+.bank-list {
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  filter: alpha (opacity=0)
+}
+.hm-btn {
+  background-position: -105px -61px;
+  height: 33px;
+  line-height: 35px;
+  margin: 0 auto;
+  text-align: center;
+  width: 99px;
+}
+.CQSSC .box-title {
+  background-image: url("../images/box-game-1.png");
+  display: block;
+  height: 70px;
+  margin: 0 auto;
+  width: 110px;
+}
+.T2KSSC .box-title {
+  background-image: url("../images/box-game-2.png");
+  display: block;
+  height: 70px;
+  width: 107px;
+  margin: 0 auto;
+}
+.T2KFFC .box-title {
+  background-image: url("../images/box-game-3.png");
+  display: block;
+  height: 70px;
+  width: 110px;
+  margin: 0 auto;
+}
+.box-title4.icon {
+  background-image: url("../images/box-game-4.png");
+  display: block;
+  height: 70px;
+  margin: 0 auto;
+  width: 110px;
+}
+.box-conent {
+  /* padding: 17px 0px; */
+  text-align: center;
+  width: 215px;
+}
+.sub-main-wrp .sb-wrapper {
+  margin-bottom: 5px;
+}
+.box-main-wrp .inline-block {
+  border-radius: 4px;
+  margin-right: 10px;
+}
+/***** LOTTO *****/
+.lottey-body {
+	background-color: #f9f9f9;
+}
+.main_content {
+  width: 1366px;
+  margin: 0 auto;
+  position: relative;
+}
+.page_content {
+  box-shadow: 5px 0 24px rgba(0, 0, 0, 0.12) inset;
+  padding-bottom: 44px;
+  padding-top: 6px;
+}
+.tz_history_content li {
+  display: inline-block;
+  line-height: 54px;
+  margin: 5px 0;
+  text-align: center;
+  width: 165px;
+}
+.ch_fx {
+  left: 30px;
+  position: relative;
+}
+.fxCh {
+  left: 40px;
+  position: relative;
+}
+.below_header {
+	margin-top: -10px;
+	height: 107px;
+	padding-top: 9px;
+	background-color: #fff;
+	/* -webkit-box-shadow: 0px 12px 27px -15px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 12px 27px -15px rgba(0,0,0,0.2);
+	box-shadow: 0px 12px 27px -15px rgba(0,0,0,0.2); */
+}
+
+.select-game-icon {
+  height: 87px;
+  margin-left: 0px;
+  margin-right: 18px;
+  width: 87px;
+}
+
+span.red, .red {
+	color: #fc0a0a;
+}
+
+
+.game-timer {
+	background-color: #f5f5f5;
+	height: 52px;
+	width: 220px; /* 194px -original */
+	border-radius: 3px 3px 3px 3px;
+  -ms-border-radius: 3px 3px 3px 3px;
+  -moz-border-radius: 3px 3px 3px 3px;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  line-height: 55px;
+  position: relative;
+  behavior: url(./css3pie/PIE.htc);
+}
+
+.game-timer ul li, .game-jackpot-rb ul li {
+	list-style: none !important;
+	display: inline-block;
+}
+
+ul.jph-con li {
+	list-style: none 
+}
+
+.game-timer li {
+    font-size: 48px;
+}
+
+.blue {
+	color: #608df1;
+}
+
+span.bold {
+	font-weight: bold;
+}
+
+.hj-black{
+	font-weight: bold;
+	color: #333;
+	padding-left: 5px;
+}
+
+.hj-blue{
+	font-weight: bold;
+	color: #608df1;
+	padding-left: 5px;
+}
+
+.hj-red{
+	font-weight: bold;
+	color: #f50303;
+	padding-left: 5px;
+}
+
+.game-jackpot-con {
+  position: relative;
+  right: -7px;
+  text-align: center;
+  width: 670px;
+}
+
+.game-icons {
+	background-image: url("../images/betting-sprites.png");
+}
+.model_child_content {
+	  border-radius: 0px 10px 10px 0px;
+  -ms-border-radius:  0px 10px 10px 0px;
+  -moz-border-radius:  0px 10px 10px 0px;
+  -webkit-border-radius:  0px 10px 10px 0px;
+  behavior: url(./css3pie/PIE.htc);
+}
+.model_main_menus {
+  border-radius: 10px 0px 0px 10px;
+  -ms-border-radius: 10px 0px 0px 10px;
+  -moz-border-radius: 10px 0px 0px 10px;
+  -webkit-border-radius: 10px 0px 0px 10px;
+  behavior: url(./css3pie/PIE.htc);
+}
+.game-jackpot-rb li {
+  background-image: url("../images/betting-sprites.png");
+  background-position: -6px -96px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  box-shadow: 0 3px 6px rgba(255, 18, 57, 0.44);
+  color: #fff;
+  font-family: "Microsoft YaHei";
+  font-size: 28px;
+  font-weight: bold;
+  height: 52px;
+  line-height: 52px;
+  margin-bottom: 0;
+  margin-left: 5px;
+  margin-right: 2px;
+  margin-top: 0;
+  text-align: center;
+  width: 52px;
+}
+.jp-onel {
+	width: 75px;
+}
+
+.jp-title {
+	display: inline-block;
+	width: 100%;
+}
+.jackpot-history-icon {
+	height: 19px;
+	width: 19px;
+	background-position: -264px -8px;
+}
+
+.red-border-button {
+  background-position: -13px -282px;
+  color: #ff3333;
+  cursor: pointer;
+  height: 38px;
+  line-height: 40px;
+  text-align: center;
+  width: 155px;
+}
+
+.red-border-button.enable {
+	color: #fff;
+	background-position: -13px -383px;
+}
+
+.red-border-button.enable:active {
+	background-position: -13px -433px;
+}
+
+.white-border-button.enable:hover {
+  background-position: -185px -380px;
+  color: #818181;
+  height: 43px;
+  line-height: 40px;
+  text-align: center;
+  width: 120px;
+}
+.white-border-button.white-border-button {
+  background-position: -185px -282px;
+  color: #818181;
+  height: 43px;
+  line-height: 40px;
+  text-align: center;
+  width: 120px;
+}
+/* 
+.white-border-button:hover {
+	background-position: -185px -382px;
+} */
+
+.white-border-button.enable {
+  background-position: -185px -328px;
+  color: #818181;
+  height: 43px;
+  line-height: 40px;
+  text-align: center;
+  width: 120px;
+}
+.white-border-button.enable:active {
+	background-position: -185px -432px;
+}
+
+
+.red-border-button a,.white-border-button a  {
+    display: block;
+    line-height: 37px;
+}
+
+/*** Current Bet ***/
+.rounded {
+	border-radius: 5px 5px 5px 5px;
+  -ms-border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  position: relative;
+  behavior: url(./css3pie/PIE.htc);
+}
+.lt-active {
+  border-bottom: 4px solid #ff0000;
+  height: 39px;
+}
+.lt-active .icon-txt-con.inline-block {
+  color: #ff6464;
+}
+.bet-con {
+	height: 456px;
+	width: auto;
+	background-color: #f3f3f3;
+	border: 1px solid #d4d4d4;
+	overflow: hidden;
+}
+.s-img-cont img {
+  height: 344px;
+  width: 906px;
+}
+.inline-block.orBet-bnt {
+  background-position: -462px -283px;
+  color: #ff9a1e;
+  padding: 8px 27px;
+  cursor: pointer;
+}
+.inline-block.blBet-btn {
+  background-position: -324px -283px;
+  padding: 8px 27px;
+  cursor: pointer;
+  color: #356CFF;
+}
+
+.orBet-bnt.enable {
+	background-position: -462px -383px;
+	color: #fff;
+}
+
+.blBet-btn.enable {
+	background-position: -324px -330px;
+	color: #fff;
+}
+.tz_bet .orBet-bnt.enable:active {
+	background-position: -462px -433px;
+	color: #fff;
+}
+
+
+.blBet-btn:active {
+	background-position: -324px -433px;
+	color: #fff;
+}
+
+.tz_bet.inline-block.betting-btn {
+  bottom: 4px;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  position: absolute;
+  right: 31px;
+}
+.blBet-btn {
+  margin-left: 10px;
+}
+.inline-block.blBet-btn.game-icons {
+  margin-right: 0 !important;
+}
+.tz_bet.tz_bet1.inline-block {
+  padding: 0 13px  0 0px;
+}
+.tz_bet.tz_bet3.inline-block {
+  margin-top: 2px;
+  padding-right: 50px;
+}
+.tz_bet_wrp .tz_bet {
+  border-right: 1px solid #d4d4d4;
+  padding: 0 10px;
+}
+.btnBet-wrp .inline-block {
+  margin: 0 6px;
+}
+.tz_bet.amount-bet-current.inline-block,.tz_bet.inline-block.betting-btn {
+  border: 0;
+}
+.bet-con-bottom {
+	height: 69px;
+	width: auto;
+	background-color: #fff;
+	border-top: 1px solid #d4d4d4;
+	padding: 13px 29px;
+}
+
+.bcb-left {
+	margin-right: 22px;
+}
+.alignleft.bcb-left.game-icons.white-border-button {
+  margin-right: 10px;
+}
+.bet-con-bottom span.red, .amount-bet-current span.red {
+	color: #fc0a0a;
+	font-weight: bold;
+}
+
+.tab-menu-title-1, .tab-menu-title-2 {
+	height: 46px;
+	background-color: #e5e5e5;
+}
+
+
+.tab-data-con ul li:first-child:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.tab-menu-title-1 ul li, .tab-data-con ul li  {
+    display: inline-block;
+    width: 165px;
+    text-align: center; 
+}
+
+.tab-menu-title-2 ul li , #tab2 .tab-data-con ul li{
+    display: inline-block;
+    width: 140px;
+    text-align: center; 
+}
+
+.tab-menu-title-1 ul li, .tab-menu-title-2 ul li {
+	 padding-top: 14px;
+}
+
+.tab-data-con ul li {
+	padding-top: 30px;
+}
+
+.tab-menu-title-1 ul li a {
+    display: block;
+}
+
+.cancel-x {    
+	height: 25px;
+    width: 25px;
+    background-position: -261px -31px;
+	margin: 0 auto;
+}
+
+.cancel-y {    
+	height: 30px;
+    width: 91px;
+    margin: 0 auto;
+}
+
+.cancel-y:hover {
+  background-image: url("../images/betting-sprites.png");
+  background-position: 170px -759px;
+}
+#tab2 .cancel-y {
+  display: block !important;
+  height: 40px;
+  line-height: 0;
+  position: absolute;
+  right: 70px;
+  top: 0;
+  width: 100px !important;
+  cursor: pointer;
+}
+.tz_history_content > dl {
+  position: relative;
+}
+.cancel-y a {
+	color: #888;
+}
+
+.cancel-x a {
+    display: block;
+}
+
+/*********** TAB *********/
+
+ul.tab {
+  background-color: #f1f1f1;
+  background-image: url("../images/b1.png");
+  background-position: 147px 15px;
+  background-repeat: no-repeat;
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+li.icon-3-con {
+  border-left-color: -moz-use-text-color !important;
+  border-left-style: none !important;
+  border-left-width: medium !important;
+  line-height: 48px;
+  margin-left: 662px;
+}
+ul.tab li:first-child {
+	border-left: none;
+	}
+	
+ul.tab li {
+	float: left;
+	padding: 0 15px;
+
+	}
+
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 10px 0px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+ul.tab li a:hover {
+	color: #fa0808 !important;
+    border-bottom: 4px solid #fa0808;
+	}
+
+ul.tab li a:focus, .tab-active {
+	color: #fa0808 !important;
+
+	}
+.bet-con .tab .tablinks.tab-active {
+  border-bottom: 4px solid #fa0808;
+  box-sizing: border-box;
+  margin: 0 29px;
+  padding: 0 7px;
+}
+.bet-con .tab .tablinks {
+  border: 0 none;
+  box-sizing: border-box;
+  margin: 0 42px;
+  padding: 0 7px;
+}
+.tabcontent {
+    display: none;
+    border-top: none;
+}
+
+#tab1 {
+	display: block;
+}
+
+/*** LORAINE ***/
+.slider-menu.inline-block li a div,
+.box-main-wrp .box-conent *,
+.red-submt-btn,
+.header *
+{
+	color: #ffffff;
+}
+
+/*******************lottery*/
+.inline-block.p-amount {
+  text-align: center;
+  
+}
+.tz_bet .inline-block {
+  vertical-align: middle;
+}
+.btn.game-icons.inline-block.minus_btn {
+  background-position: -237px -103px;
+  padding: 9px 17px;
+}
+.input-holer-tz input {
+  background: transparent;
+  border: 0 none;
+  text-align: center;
+  width: 100%;
+}
+.input-holer-tz {
+  background-position: -450px -105px;
+  margin-bottom: 0;
+  margin-left: -3px;
+  margin-right: -3px;
+  margin-top: 0;
+  padding-bottom: 8px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 8px;
+  width: 68px;
+}
+.tz_bet.inline-block {
+  vertical-align: middle;
+}
+.btn.game-icons.inline-block.less_btn {
+  background-position: -319px -99px;
+  padding: 10px 18px;
+}
+
+.btn.game-icons.inline-block.mrethan_btn {
+background-position: -363px -100px;
+  padding: 10px 18px;	
+}
+.inline-block.game-icons.btn.plus_btn {
+	  background-position: -280px -103px;
+  padding: 9px 18px;
+}
+.lot-game-wrp {
+  padding-bottom: 3px;
+  padding-left: 28px;
+  padding-right: 30px;
+  padding-top: 15px;
+}
+.game-jackpot-con.alignleft > dt {
+  position: relative;
+  left: -30px;
+}
+.lottery-wrp {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-bottom-color: #d4d4d4;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-image-outset: 0 0 0 0;
+  border-image-repeat: stretch stretch;
+  border-image-slice: 100% 100% 100% 100%;
+  border-image-source: none;
+  border-image-width: 1 1 1 1;
+  border-left-color: #d4d4d4;
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-color: #d4d4d4;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-top-color: #d4d4d4;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  margin-bottom: 28px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  max-width: 1200px;
+  position: relative;
+  width: 100%;
+}
+.lottery-contnt {
+  position: relative;
+  margin: 0 auto;
+}
+.lottery-menu .inline-block {
+  vertical-align: middle;
+}
+.lottery-menu {
+  height: 47px;
+}
+.menu-loterry > li {
+  display: inline-block;
+  height: 30px;
+  list-style: outside none none;
+  margin-top: 9px;
+  min-width: 30px;
+  padding: 3px 21px 8px;
+  text-align: center;
+}
+.game-icons.menu-tab-right.inline-block.active {
+  background-position: -4px -40px;
+}
+#leftMenu .sub-main-wrp {
+  width: 100%;
+  background: transparent;
+}
+.menu-loterry li:hover {
+  color: #fa3232;
+}
+.child_menu.hide li:hover {
+  background: transparent;
+}
+
+.menu-loterry, .lottery-info-tab {
+  height: 48px;
+  padding-left: 23px;
+}
+.ch_nClass {
+  position: relative;
+  top: 4px;
+}
+.ch-lot-tab .inline-block {
+  vertical-align: middle;
+}
+.lottery-info-tab .inline-block {
+  position: relative;
+  right: -3px;
+  vertical-align: middle;
+}
+.tz_bet.tz_bet1.inline-block {
+  position: relative;
+  right: -4px;
+  top: 2px;
+}
+.lot-type-text:hover .lot-type-wrp {
+ color: #ff6464 !important;
+}
+.lot-type-text:hover .hoverInfo {
+ background-position: -305px -61px !important;
+}
+
+.icon-right-con {
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 20px;
+  padding-top: 10px;
+  width: 220px;
+}
+.icon-right-con dl {
+  margin-bottom: 0;
+  margin-left: -7px;
+  margin-right: -7px;
+  margin-top: 0;
+}
+.icon-1-con {
+	display: block;
+	cursor: pointer;
+}
+.icon-2-con {
+	display: block;
+/* 	cursor: pointer; */
+}
+
+.icon-1-con:hover  .icon-txt-con 
+/* .icon-2-con:hover  .icon-txt-con,
+.icon-3-con:hover  .icon-txt-con,
+.icon-4-con:hover  .icon-txt-con  */{
+	color: #ff0000;
+}
+
+.icon-1-con:hover  .icon-1 {
+	background-position: -316px -33px;
+}
+.big_wrapper {
+  margin: 0 auto;
+  position: relative;
+  width: 1366px;
+}
+
+/* .icon-2-con:hover  .icon-2 {
+	background-position: -286px -63px;
+}
+
+li.icon-3-con:hover .icon-3 {
+	background-position: -329px -63px;
+}
+
+li.icon-4-con:hover .icon-4 {
+	background-position: -352px -63px;
+} */
+
+
+.icon-3-con {
+  background: url(../images/b1.png);
+  background-repeat: no-repeat;
+  background-position: 110px 15px;
+}
+li.icon-4-con {
+    line-height: 48px;
+}
+
+.icon-right-con .icon-1, .icon-right-con .icon-2, .icon-3-con .icon-3, .icon-4-con .icon-4  {
+	height: 20px;
+	width: 20px;
+}
+
+.icon-right-con .icon-1 {
+    background-position: -293px -33px;
+      left: 0;
+  position: relative;
+}
+.lt-active .game-icons.icon-1.inline-block {
+  background-position: -316px -33px;
+  left: 0;
+  position: relative;
+}
+.icon-right-con.alignright {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("../images/b1.png");
+  background-origin: padding-box;
+  background-position: 97px center;
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  left: -22px;
+  position: relative;
+}
+.sb-text {
+  margin-bottom: 3px;
+}
+.icon-right-con .icon-2 {
+	background-position: -287px -8px;
+}
+
+.icon-3-con .icon-3 {
+  background-position: -330px -8px;
+  left: -6px;
+  margin-top: 15px;
+  position: relative;
+}
+.game-icons.icon-4.inline-block {
+  position: relative;
+  left: -3px;
+}
+
+.icon-4-con .icon-4 {
+	background-position: -353px -8px;
+	margin-top: 14px;
+}
+
+.game-icons.inline-block.hoverInfo {
+  background-position: -306px -6px;
+  cursor: pointer;
+  padding: 0 10px;
+}
+.game-icons.lot-tab1.inline-block.active {
+  background-position: 0 -6px;
+  padding: 5px 18px;
+}
+.game-icons.lot-tab2.inline-block {
+  margin-left: -7px;
+  cursor: pointer;
+}
+.game-icons.lot-tab.inline-block.active {
+  background-position: -137px -51px;
+  padding: 8px 10px;
+}
+.game-icons.lot-tab2.inline-block {
+  background-position: -190px -8px;
+  padding: 8px 10px;
+}
+.ch-lot-tab {
+  margin: 0 20px;
+}
+.game-icons.in-box-Text.inline-block {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: #f0f0f0;
+  background-image: none;
+  background-origin: padding-box;
+  background-repeat: repeat;
+  background-size: auto auto;
+  border: 1px solid #d6d6d6;
+  border-radius: 37px;
+  padding: 7px 20px;
+  text-align: center;
+}
+.ch-lot-tab.lot-type-text.inline-block {
+  margin: 0;
+}
+.lottery-info-tab {
+  padding-bottom: 8px;
+  padding-top: 8px;
+}
+.lottery-info-tab {
+  border-bottom: 1px solid #d4d4d4;
+  border-top: 1px solid #d4d4d4;
+  height: 59px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+}
+.lottery-menu {
+  background: #f3f3f3 none repeat scroll 0 0;
+  border-radius: 4px 4px 0 0;
+}
+
+.sm-link:hover ul {
+  display: block;
+  left: 224px;
+  position: absolute;
+  top: 3px;
+  width: 170px;
+}
+
+.tab-menu-right.inline-block {
+  border-left: 1px solid #bcaeae;
+  clear: both;
+  float: right;
+  margin-right: 28px;
+  margin-top: 8px;
+  padding-left: 11px;
+  position: absolute;
+  right: 0;
+}
+.game-icons.menu-tab-right.inline-block {
+  background-position: -4px -41px;
+  padding-bottom: 4px;
+  padding-left: 11px;
+  padding-right: 12px;
+  padding-top: 4px;
+}
+.game-icons.menu-tab-right2.inline-block {
+  background-position: -69px -8px;
+  margin-left: -6px;
+  padding: 4px 16px;
+}
+.menu-tab-right.active, .menu-tab-right2.active {
+    color: #fa0808;
+}
+.lottery-menu .inline-block {
+  vertical-align: middle;
+  cursor: pointer;
+}
+.main-game-number > li, .lt-pick-row.inline-block li {
+  display: inline-block;
+}
+.lt-number-row.inline-block {
+  left: 123px;
+  position: relative;
+  top: -2px;
+  width: 770px;
+}
+
+.num-wrp {
+  color: #666666;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("../images/balldflt.png");
+  background-origin: padding-box;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  cursor: pointer;
+  display: inline-block;
+  height: 89px;
+  line-height: 90px;
+  margin-left: -43px;
+  text-align: center;
+  width: 87px;
+  margin-top: -22px;
+}
+.game-cntaner:hover .ch-xs em {
+	color: #fff;
+}
+.ch-xs .lt-tb-row {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("../images/betting-sprites.png");
+  background-origin: padding-box;
+  background-position: -143px -210px;
+  background-repeat: repeat;
+  background-size: auto auto;
+  padding-bottom: 9px;
+  padding-left: 10px;
+  padding-right: 18px;
+  padding-top: 4px;
+  position: absolute;
+  text-align: center;
+}
+.game-cntaner:hover .lt-tb-row {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("../images/betting-sprites.png");
+  background-origin: padding-box;
+  background-position: -62px -210px;
+  background-repeat: repeat;
+  background-size: auto auto;
+  color: #fff;
+}
+.lt-pick-row.inline-block {
+  position: absolute;
+  right: -2px;
+  top: 1px;
+}
+.rs-hdr-btns.alignright.clearfix {
+  left: -5px;
+  position: relative;
+}
+.tz_bet.tz_bet2 {
+  padding-right: 15px;
+}
+.num-wrp.hover, .num-wrp.selected.hover {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("../images/ballhvr.png");
+    background-origin: padding-box;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    color: #fff;
+    text-align: center;
+    text-shadow: -1px 0 #767d92, 1px 1px #767d92, 1px 0 #767d92, 0 -1px #767d92;
+
+}
+
+.num-wrp.selected {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("../images/ballselct.png");
+  background-origin: padding-box;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  color: #fff;
+}
+.lot-game-wrp .inline-block {
+  vertical-align: middle;
+}
+.game-cntaner {
+  left: -2px;
+  position: relative;
+  text-align: left;
+}
+.ch-lot-tab.lottery-info-tab-wrp.inline-block {
+  margin-left: 10px;
+}
+.lot-game-wrp .numb.selected {
+  background-position: -64px -98px;
+  color: #fff;
+  line-height: 51px;
+}
+
+.sub-wrp {
+  display: inline-block;
+  font-size: 12px;
+  left: -58px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 2px;
+  margin-top: 0;
+  position: relative;
+  text-align: right;
+  text-indent: 5px;
+  top: 27px;
+  width: 19px;
+}
+.lottery-info-tab dl {
+  margin-right: -3px;
+}
+.alignleft.icon-1-con {
+  left: -1px;
+  position: relative;
+}
+.bpx-nfo.inline-block {
+  left: 21px;
+  margin-right: 20px;
+  position: relative;
+}
+.lott-rs-pop dt {
+  margin-bottom: 0;
+}
+.lott-rs-pop dd {
+
+  top: -27px;
+}
+.sub-game-number {
+/*   left: 137px; */
+  position: absolute;
+  top: 62px;
+}
+
+.lt-pick-row.inline-block li {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("../images/betting-sprites.png");
+  background-origin: padding-box;
+  background-position: -63px -160px;
+  background-repeat: repeat;
+  background-size: auto auto;
+  color: #909090;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 0;
+  padding-bottom: 7px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 7px;
+}
+.num-wrp:hover .numb {
+  color: #fff;
+  background: url(../images/betting-sprites.png);
+  background-position: -1px -211px;
+  text-shadow: -1px 0 #767d92, 1px 1px #767d92, 1px 0px #767d92, 0 -1px #767d92;
+}
+.btn.game-icons.inline-block.currency {
+  background-position: -407px -101px;
+  padding: 10px 11px;
+}
+
+.btn.game-icons.inline-block.currency:active, .btn.game-icons.inline-block.currency.active  {
+  background-position: -407px -144px;
+  color:#fb302a;
+}
+
+.btn.game-icons.inline-block.currency:hover  {
+  background-position: -407px -226px;
+}
+.btn.game-icons.inline-block.less_btn:hover {
+  background-position: -320px -226px;
+}
+.btn.game-icons.inline-block.less_btn:active {
+    background-position: -320px -144px;
+}
+
+
+
+.btn.game-icons.inline-block.mrethan_btn:hover {
+    background-position: -363px -226px;
+}
+.btn.game-icons.inline-block.mrethan_btn:active {
+    background-position: -363px -143px;
+}
+.inline-block.game-icons.btn.plus_btn:hover{
+  background-position: -280px -228px;
+}
+.inline-block.game-icons.btn.plus_btn:active {
+    background-position: -280px -145px;
+}
+
+
+.btn.game-icons.inline-block.minus_btn:hover {
+  background-position: -237px -228px;
+}
+.btn.game-icons.inline-block.minus_btn:active {
+    background-position: -237px -145px;
+}
+
+.lot-tab.active, .lot-tab2.active {
+	color:#fb302a;
+}
+
+/***  404 PAGE NOT FOUND ***/
+
+.page-not-found,
+.reg-page,
+.gradient-page
+{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fff4f8+0,fffbfc+1,fefefe+6,f9f9f9+18,f9f9fb+20,f8f8f8+20,f8f8fa+23,f6f6f6+26,f6f6f8+28,f2f3f5+32,f3f2f7+36,eeeff3+43,ededf5+50,ebebf3+51,e9ecf5+56,e9e9f3+59,eaeaf6+59,e7e9f5+60,eaeaf6+60,e7e9f5+60,e7e9f5+62,e9e7f5+63,e6e8f5+63,e4e5f7+70,e1e3fc+89,dee2fb+89,dee2ff+96,dfe0fc+96,dce1fe+97,dfe0fe+97,dedefa+98,dfdefd+98,dfdaf8+99,dfdafa+100,dfdbf6+100 */
+	background: rgb(255,244,248); /* Old browsers */
+ 	background: -moz-linear-gradient(top, rgba(255,244,248,1) 0%, rgba(255,251,252,1) 1%, rgba(254,254,254,1) 6%, rgba(249,249,249,1) 18%, rgba(249,249,251,1) 20%, rgba(248,248,248,1) 20%, rgba(248,248,250,1) 23%, rgba(246,246,246,1) 26%, rgba(246,246,248,1) 28%, rgba(242,243,245,1) 32%, rgba(243,242,247,1) 36%, rgba(238,239,243,1) 43%, rgba(237,237,245,1) 50%, rgba(235,235,243,1) 51%, rgba(233,236,245,1) 56%, rgba(233,233,243,1) 59%, rgba(234,234,246,1) 59%, rgba(231,233,245,1) 60%, rgba(234,234,246,1) 60%, rgba(231,233,245,1) 60%, rgba(231,233,245,1) 62%, rgba(233,231,245,1) 63%, rgba(230,232,245,1) 63%, rgba(228,229,247,1) 70%, rgba(225,227,252,1) 89%, rgba(222,226,251,1) 89%, rgba(222,226,255,1) 96%, rgba(223,224,252,1) 96%, rgba(220,225,254,1) 97%, rgba(223,224,254,1) 97%, rgba(222,222,250,1) 98%, rgba(223,222,253,1) 98%, rgba(223,218,248,1) 99%, rgba(223,218,250,1) 100%, rgba(223,219,246,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(255,244,248,1) 0%,rgba(255,251,252,1) 1%,rgba(254,254,254,1) 6%,rgba(249,249,249,1) 18%,rgba(249,249,251,1) 20%,rgba(248,248,248,1) 20%,rgba(248,248,250,1) 23%,rgba(246,246,246,1) 26%,rgba(246,246,248,1) 28%,rgba(242,243,245,1) 32%,rgba(243,242,247,1) 36%,rgba(238,239,243,1) 43%,rgba(237,237,245,1) 50%,rgba(235,235,243,1) 51%,rgba(233,236,245,1) 56%,rgba(233,233,243,1) 59%,rgba(234,234,246,1) 59%,rgba(231,233,245,1) 60%,rgba(234,234,246,1) 60%,rgba(231,233,245,1) 60%,rgba(231,233,245,1) 62%,rgba(233,231,245,1) 63%,rgba(230,232,245,1) 63%,rgba(228,229,247,1) 70%,rgba(225,227,252,1) 89%,rgba(222,226,251,1) 89%,rgba(222,226,255,1) 96%,rgba(223,224,252,1) 96%,rgba(220,225,254,1) 97%,rgba(223,224,254,1) 97%,rgba(222,222,250,1) 98%,rgba(223,222,253,1) 98%,rgba(223,218,248,1) 99%,rgba(223,218,250,1) 100%,rgba(223,219,246,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(255,244,248,1) 0%,rgba(255,251,252,1) 1%,rgba(254,254,254,1) 6%,rgba(249,249,249,1) 18%,rgba(249,249,251,1) 20%,rgba(248,248,248,1) 20%,rgba(248,248,250,1) 23%,rgba(246,246,246,1) 26%,rgba(246,246,248,1) 28%,rgba(242,243,245,1) 32%,rgba(243,242,247,1) 36%,rgba(238,239,243,1) 43%,rgba(237,237,245,1) 50%,rgba(235,235,243,1) 51%,rgba(233,236,245,1) 56%,rgba(233,233,243,1) 59%,rgba(234,234,246,1) 59%,rgba(231,233,245,1) 60%,rgba(234,234,246,1) 60%,rgba(231,233,245,1) 60%,rgba(231,233,245,1) 62%,rgba(233,231,245,1) 63%,rgba(230,232,245,1) 63%,rgba(228,229,247,1) 70%,rgba(225,227,252,1) 89%,rgba(222,226,251,1) 89%,rgba(222,226,255,1) 96%,rgba(223,224,252,1) 96%,rgba(220,225,254,1) 97%,rgba(223,224,254,1) 97%,rgba(222,222,250,1) 98%,rgba(223,222,253,1) 98%,rgba(223,218,248,1) 99%,rgba(223,218,250,1) 100%,rgba(223,219,246,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff4f8', endColorstr='#dfdbf6',GradientType=0 ); /* IE6-9 */
+ }
+
+.page-not-found div {
+    text-align: center;
+	color: #888;
+}
+
+.header-logo-404 {
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.image-404 {
+	margin-top: 40px;
+	margin-bottom: 60px;
+}
+
+.image-sysup {
+	margin-top: 63px;
+	margin-bottom: 90px;
+}
+
+.header-logo-404 a{
+
+}
+
+.page-not-found .footer {
+	background-color: transparent;
+	position: fixed;
+}
+
+.page-not-found .footer div {
+	font-size: 12px !important;
+	color: #999;
+}
+
+ul.roro-bnt {
+    margin-top: 22px;
+}
+
+.roro-bnt li{
+	border-radius: 20px 20px 20px 20px;
+  -ms-border-radius: 20px 20px 20px 20px;
+  -moz-border-radius: 20px 20px 20px 20px;
+  -webkit-border-radius: 20px 20px 20px 20px;
+	border: 1px solid #c4c5d1;
+	display: inline-block;
+	margin-left: 5px;
+  position: relative;
+  behavior: url(./css3pie/PIE.htc);
+}
+
+.roro-bnt li a:hover {
+    color: #fff;
+	background-color: #fcc0ca;
+	-webkit-transition: all .1s ease-in;
+	-moz-transition: all .1s ease-in;
+	-ms-transition: all .1s ease-in;
+	-o-transition: all .1s ease-in;
+	transition: all .1s ease-in;
+}
+
+.roro-bnt li:hover {
+	border: 1px solid #fcc0ca;
+	-webkit-box-shadow: 0px 0px 25px 0px rgba(236,13,50,0.31);
+	-moz-box-shadow: 0px 0px 25px 0px rgba(236,13,50,0.31);
+	box-shadow: 0px 0px 25px 0px rgba(236,13,50,0.31);
+}
+
+.roro-bnt li a {
+    color: #888;
+    padding: 3px 15px 3px 15px;
+	border-radius: 20px 20px 20px 20px;
+    display: block;
+}
+
+.not-found {
+	height: 100%;
+}
+
+/******************************************************Cris A*/
+/* .lottery-menu, .lottery-info-tab,.game-cntaner,.btn, .orBet-bnt, .blBet-btn, .cancel-x, .cancel-y,  */
+/* .bet-con .tab, .sb-text,.below_header,.white-border-button,.red-border-button   */ 
+
+body {
+  -webkit-user-select: none;  
+  -moz-user-select: none;    
+  -ms-user-select: none;     
+   user-select: none; 
+}
+.page-content {
+  margin: 0 auto;
+  width: 1210px;
+}
+.box-main-wrp em {
+  display: block;
+  font-size: 12px;
+  padding: 0px 10px 5px 3px;
+}
+.ui-ch {
+  width: 105px;
+}
+.sidebar-con.modal .sb-text, .menu-sub-content a {
+  color: #fff;
+  display: block;
+}
+.sidebar-con.modal {
+  background: #635656 none repeat scroll 0 0;
+  border-radius: 0 !important;
+  height: 100%;
+  position: relative;
+  top: 0;
+}
+.sub-main-wrp {
+  background: #625656;
+  float: left;
+/*   height: 100%; */
+  text-align: left;
+  width: 65px;
+}
+.submenu-modal {
+  background: #6a5c5c none repeat scroll 0 0;
+  height: 600px;
+}
+
+.submenu-modal.inline-block {
+  line-height: 40px;
+  text-align: center;
+  width: 170px;
+}
+.submenu-modal p {
+  color: #fff;
+  display: block;
+  font-size: 28px;
+  padding: 30px 0 40px;
+}
+.submenu-modal ul li {
+	  color: #fff;
+}
+.sb-deposit.activeOn:before {
+background-image: url("../images/icons.png");
+background-position: -565px -7px;
+content: " ";
+display: block;
+height: 60px;
+position: absolute;
+width: 60px;
+z-index: -1;
+}
+.manualBetting textarea {
+  border: 1px solid #d3d4d4;
+  border-radius: 6px;
+  box-shadow: -1px 3px 2px -1px #dedede inset;
+  color: #888888;
+  height: 380px;
+  padding: 25px;
+  resize: none;
+  text-align: left;
+  width: 100%;
+}
+.sub-act, .submenu-modal li:hover {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("../images/icons.png");
+  background-origin: padding-box;
+  background-position: -110px -424px;
+  background-repeat: repeat;
+  background-size: auto auto;
+  display: block;
+  width: 100%;
+  cursor:pointer;
+}
+
+.onPayment-wrp {
+
+  text-align: left;
+}
+.dfx {
+
+  padding: 22px 20px 20px !important;
+ 
+}
+/* .onPayment-leftcontent {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: #f1f1f1;
+  background-image: none;
+  background-origin: padding-box;
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: auto auto;
+  clear: both;
+  height: 600px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  width: 260px;
+} */
+
+.UserAmount {
+  color: #0094d1;
+  font-family: microsoft yahei;
+  font-weight: bold;
+  letter-spacing: -1px;
+    font-size: 18px;
+}
+
+.close-modal {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("../images/icons.png");
+  background-origin: padding-box;
+  background-position: -152px -238px;
+  background-repeat: repeat;
+  background-size: auto auto;
+  padding-bottom: 27px;
+  padding-left: 40px;
+  padding-right: 6px;
+  padding-top: 22px;
+  position: absolute;
+  right: -10px;
+  top: -15px;
+}
+.main-container-wrp {
+  background: #fff none repeat scroll 0 0;
+  border-radius: 15px;
+  display: block;
+  height: 600px;
+  overflow: hidden;
+  position: relative;
+  top: -20px;
+  width: 100%;
+  text-align: center;
+}
+.sub-menu-wrp {
+  height: 100%;
+  margin-left: -5px;
+  width: 1043px;
+}
+.main-content-xml {
+  height: 100%;
+  margin-left: -7px;
+}
+.remodalSubMenu li {
+  color: #fff;
+  cursor: pointer;
+}
+.mem-icon {
+  background: url(../images/mem-icon.png);
+}
+.profileMember {
+  background-position: -392px -88px;
+  display: inline-block;
+  height: 49px;
+  margin-left: 8px;
+  position: relative;
+  top: 2px;
+  width: 54px;
+}
+.userName {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  left: 10px;
+  position: relative;
+  top: 15px;
+  color: #818181;
+}
+.amountUser.mem-icon {
+  background-position: 4px -92px;
+  line-height: 25px;
+  margin-bottom: 20px;
+  margin-top: 16px;
+  padding: 8px;
+  text-align: center;
+  width: 219px;
+}
+.OpLeftContnt {
+  border-top: 1px solid #dedede;
+  padding: 2px 20px;
+}
+.content_side_cx {
+  margin-top: 14px;
+}
+.sm-label {
+  color: #818181;
+  font-size: 17px;
+}
+.ch-input {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: transparent;
+  background-image: none;
+  background-origin: padding-box;
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: auto auto;
+  border-bottom-color: -moz-use-text-color;
+  border-bottom-style: none;
+  border-bottom-width: 0;
+  border-image-outset: 0 0 0 0;
+  border-image-repeat: stretch stretch;
+  border-image-slice: 100% 100% 100% 100%;
+  border-image-source: none;
+  border-image-width: 1 1 1 1;
+  border-left-color: -moz-use-text-color;
+  border-left-style: none;
+  border-left-width: 0;
+  border-right-color: -moz-use-text-color;
+  border-right-style: none;
+  border-right-width: 0;
+  border-top-color: -moz-use-text-color;
+  border-top-style: none;
+  border-top-width: 0;
+}
+
+.top-contner .inline-block {
+  vertical-align: middle;
+}
+.txt-input-longAmount {
+  background-position: -10px -156px;
+  height: 40px;
+  padding-bottom: 10px;
+  padding-left: 13px;
+  padding-right: 18px;
+  padding-top: 10px;
+  width: 145px;
+}
+
+.top-contner {
+  border-bottom: 1px solid #e7e7e7;
+  padding-bottom: 17px;
+  padding-left: 23px;
+  width: 100%;
+}
+.sm-clr {
+  background-position: -249px -19px;
+  color: #666666;
+  cursor: pointer;
+  padding: 8px;
+}
+.xxl-clr {
+  background-position: -319px -93px;
+  padding: 9px 6px;
+    cursor: pointer;
+}
+.md-clr {
+  background-position: -263px -94px;
+  padding: 8px 7px;
+    cursor: pointer;
+}
+.onPayment-Rtcontent-wrp .left-contner, .amount-list.inline-block {
+  border-left: 1px solid #ddd;
+  margin-left: 7px;
+  padding-left: 11px;
+  text-align: left;
+  width: 350px;
+}
+.mem-icon.crcl-ch {
+  background-position: -220px -94px;
+  margin-right: 10px;
+  padding: 10px 16px;
+}
+.bankRadioBtn.mem-icon.crcl-ch.inline-block {
+  background-position: -220px -90px;
+}
+.opTab-content  .bank-list {
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.align-left {
+  text-align: left;
+  padding-left: 25px;
+}
+.status-show {
+  background-position: -208px -20px;
+  margin-right: 9px;
+  padding: 10px 17px;
+}
+.opTab-content {
+
+  padding: 0;
+  position: relative;
+}
+#opTab1 {
+  padding-left: 40px;
+  text-align: left;
+}
+#opTab1 .opTab-content {
+  margin: 20px 0;
+}
+.opTab-title {
+  border-bottom: 2px dotted #e7e7e7;
+  padding: 20px 22px;
+}
+.OpTab2 .opTab-title {
+  padding-top: 15px;
+}
+.bankList-OpTab {
+  padding: 0 0 0 27px;
+}
+.bankList-OpTab .opTab-content.inline-block {
+  margin-bottom: 4px;
+  margin-top: 12px;
+  padding: 0;
+  position: relative;
+  width: 217px;
+}
+.opTab-content img {
+  width: 70%;
+}
+
+.opTab-content .winningsRadioBtn{
+  position: relative;
+}
+
+.bankList-OpTab .opTab-content .bank-list,
+.winningsList-OpTab .opTab-content .winnings-list {
+    /*padding: 20px;*/
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    top: 0;
+    left: 0;
+}
+
+.mem-icon.status-hide {
+  background-position: -167px -20px;
+  margin-right: 10px;
+  padding: 11px 18px;
+}
+
+/* .btn.mem-icon.subMit-btn {
+  background-position: 10px -195px;
+  color: #fff;
+  display: block;
+  height: 57px;
+  line-height: 20px;
+  margin-left: 30px;
+  margin-top: 20px;
+  padding: 18px 4px 45px;
+  text-align: center;
+  width: 230px;
+} */
+.enable .red-border-bh:hover {
+  background-image: url("../images/betting-sprites.png");
+  background-position: 4px -767px;
+}
+.dira-genaffurl-promotionchannels .slect-box-custom.mem-icon.po-middle {
+  margin: 0;
+}
+.dira-genaffurl-duration .slect-box-custom.mem-icon, .dira-genaffurl-promotionchannels .slect-box-custom.mem-icon {
+  background-position: -13px -463px;
+  padding-bottom: 10px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 10px;
+  text-align: center;
+  width: 181px;
+}
+.enable .red-border-bh {
+  background-position: 8px -201px;
+  color: #fff;
+  display: block;
+  height: 57px;
+  line-height: 20px;
+  margin-left: 10px;
+  margin-top: 18px;
+  padding: 13px 4px;
+  text-align: center;
+  width: 230px;
+}
+.enable .red-border-bh:active {
+  background: url("../images/betting-sprites.png");
+  background-position: 0 -826px;
+}
+.enable .red-border-bh .ch-overyd {
+  color: #fff !important;
+}
+.btn.mem-icon.subMit-btn {
+  background-position: -190px -371px;
+  color: #ff0000;
+  height: 17px;
+  line-height: 12px;
+  margin-left: 2px;
+  margin-top: 13px;
+  padding: 17px 4px 30px;
+  text-align: center;
+  width: 230px;
+}
+.enable .btn.mem-icon.subMit-btn:hover {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("../images/betting-sprites.png");
+  background-origin: padding-box;
+  background-position: 6px 125px;
+  background-repeat: repeat;
+  background-size: auto auto;
+  color: #fff;
+  padding-bottom: 40px;
+}
+.enable .btn.mem-icon.subMit-btn:active {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("../images/betting-sprites.png");
+  background-origin: padding-box;
+  background-position: 6px 64px;
+  background-repeat: repeat;
+  background-size: auto auto;
+  color: #fff;
+}
+.enable .btn.mem-icon.subMit-btn {
+  background-position: 10px -200px;
+  color: #fff;
+  height: 57px;
+  line-height: 12px;
+  margin-left: 7px;
+  margin-top: 13px;
+  padding: 17px 4px 40px;
+  text-align: center;
+  width: 230px;
+}
+.opTab-content .inline-block {
+  margin-left: -3px;
+  vertical-align: middle;
+}
+.OpTab1 {
+  border-bottom: 1px solid #ddd;
+}
+.mem-icon.crcl-ch.inline-block.selected-red {
+  background-position: -452px -94px;
+}
+.row-2, .onPayment-leftcontent {
+  background: #f1f1f1 none repeat scroll 0 0;
+  clear: both;
+  height: 600px;
+  padding: 27px 20px 20px;
+  text-align: left;
+  width: 260px;
+}
+.row-3, .onPayment-Rtcontent-wrp {
+  margin-left: -4px;
+  margin-top: 0;
+  padding: 32px 0 20px;
+  width: 764px;
+}
+.tab-tile-sub-ch {
+  color: #888888;
+  font-size: 22px;
+  padding: 0 20px;
+  text-align: left;
+}
+.QPayment-content {
+  padding: 20px;
+  text-align: left;
+}
+.ctie-btn {
+  background-position: -389px -162px;
+  border: 0 none;
+  padding: 5px 28px;
+}
+.po-middle {
+  vertical-align: middle;
+  display: inline-block;
+}
+.ch-overydBtn{
+  border: 0;
+  width: 100%;	
+}
+.ch-overyd {
+  background: transparent;
+  border: 0;
+  width: 100%;
+}
+.all-list .card-holder {
+  height: 600px !important;
+  overflow: hidden;
+}
+.longText {
+  background-position: -177px -157px;
+  padding: 9px;
+  width: 198px;
+}
+
+.OpTab2 .mem-icon.crcl-ch.inline-block.selected-red, .bankList-OpTab-wrp .mem-icon.crcl-ch.inline-block.selected-red{
+  background-position: -452px -90px !important;
+}
+.QPayment-content {
+  min-height: 430px;
+  border-bottom: 1px solid #ADAAAA;
+}
+.qpAmount {
+  background-position: -8px -357px;
+  padding: 9px 5px;
+  width: 180px;
+}
+.qpAmount-input {
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+}
+.rowTwo-wrp, .rowThree-wrp {
+  margin-bottom: 28px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: -4px;
+  position: relative;
+}
+.OpLeftContnt-wrp p {
+  font-size: 15px;
+}
+.content_side_cx {
+  font-size: 12px !important;
+}
+.mem-icon.ctie-btn.po-middle {
+  position: absolute;
+  right: 270px;
+  top: 1px;
+}
+.selected-red {
+  background-position: -452px -94px !important;
+}
+.ch-fix {
+  text-align: center;
+  width: 40px;
+  background-position: -251px -19px;
+}
+.ch-fix2 {
+  text-align: center;
+  width: 48px;
+}
+.alipayContent.align-left {
+  border-bottom: 1px solid #d3c3c3;
+  min-height: 430px;
+    padding-top: 20px;
+}
+
+.slect-box-custom.mem-icon {
+  background-position: -197px -307px;
+  padding: 10px 0;
+  text-align: center;
+  width: 116px;
+}
+.chosen-drop {
+  border: 1px solid #ad9d9d !important;
+  border-radius: 7px !important;
+  margin-top: 5px !important;
+}
+.midle-position-abslt {
+  position: absolute;
+  top: 25%;
+  width: 767px;
+  text-align: center;
+}
+.bankList-OpTab-wrp {
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  height: 350px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.amount {
+  color: #938f8f;
+  margin-left: -3px;
+}
+.bankList-OpTab-wrp.long-list {
+  height: 364px;
+  padding-left: 27px;
+  padding-top: 7px;
+}
+.align-left.qp-custom {
+  border-top: 1px solid #c8c2c2;
+  display: block;
+  margin-top: 50px;
+}
+.chDatePicker {
+  background-position: -30px -308px;
+  padding: 10px;
+  width: 150px;
+}
+.abs-right-red {
+    background-position: -232px -199px;
+    color: #fff;
+    height: 59px;
+    width: 126px;
+    position: absolute;
+    right: 4%;
+}
+.top-contner .abs-right-red {
+  background-position: -232px -199px;
+  color: #fff;
+  height: 59px;
+  position: absolute;
+  right: 28px;
+  top: 26px;
+  width: 126px;
+}
+
+.form-submit.processing {
+	cursor: wait;
+}
+
+.full-row {
+  padding: 29px 0 20px;
+  position: relative;
+  width: 100%;
+}
+.slect-box-custom-xl {
+  background-position: -16px -618px;
+  padding: 8px 15px;
+  width: 139px;
+}
+.generateAffiliateUrl .slect-box-custom.mem-icon.po-middle {
+  margin-left: -5px;
+  margin-right: 12px;
+}
+.slect-box-custom.mem-icon.po-middle {
+  margin-left: -3px;
+  margin-right: 15px;
+}
+.dateData {
+  width: 170px !important;
+}
+.RemarksData {
+  width: 120px !important;
+}
+.Table-title {
+  border-bottom: 1px solid #cdc8c8;
+  margin-left: 23px;
+  padding: 5px 0;
+}
+.withdrawalmain .Table-title {
+  margin-left: 0;
+}
+.withdrawalmain .tablesC {
+  width: 143px;
+}
+.withdrawalmain .tableContent-wrp .inline-block.tablesC:last-child {
+  right: 15px;
+}
+.withdrawalmain .tableContent-wrp .tablesC {
+  width: 139px;
+}
+.withdrawalmain .RemarksData {
+  width: 160px !important;
+}
+.tableContent.noResult {
+  background: #ffffed none repeat scroll 0 0;
+  height: 425px;
+  padding: 10px 0 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.tableContent {
+  background: #ffffed none repeat scroll 0 0;
+  height: 413px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.tableContent .no-deposit-data {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+  text-align: center;
+}
+.tableContent .no-withdraw-data {
+  text-align: center;
+}
+.long-white.dark {
+  background-position: -177px -156px;
+  padding: 7px 0;
+  width: 200px;
+}
+
+#bindCardForm .bindcard-content {
+	line-height: 26px;
+}
+.tableContent-wrp {
+  border-bottom: 1px solid #ddd;
+  padding: 5px 0 5px 16px;
+}
+.footer-bottom-account {
+  border-top: 1px solid #ddd;
+  padding-left: 1px;
+  padding-top: 18px;
+}
+.footer-bottom-account .po-middle.align-left {
+  margin: 0 124px 0 0;
+}
+.footer-bottom-account .po-middle.align-left:last-child {
+  margin:0;
+}
+.tablesC {
+  font-size: 13px;
+  margin: 0 12px 1px 0;
+  text-align: center;
+  width: 63px;
+}
+.left-50 {
+  width: 49%;
+}
+.top-RContent {
+  text-align: left;
+  width: 240px;
+}
+#bankInfo .block-border span{
+  width: 70px;
+  display: inline-block;
+}
+.block-border {
+  border-bottom-color: #e7e2e2;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  display: block;
+  font-size: 13px;
+  line-height: 30px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 0;
+  padding-top: 5px;
+}
+.card-holder {
+  position: relative;
+  height: 290px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.bankCard-Plain {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("../images/bankCard.png");
+  background-origin: padding-box;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  padding-bottom: 0;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
+  width: 380px;
+  text-align: center;
+  margin: 0 auto;
+}
+.top-LContent {
+  text-align: left;
+  width: 450px;
+}
+.po-middle.cx-mov {
+  text-align: left;
+  width: 160px;
+  padding-left: 16px;
+}
+.bx-mov .red {
+  font-weight: bold;
+}
+.det-01 {
+  color: #fff;
+  display: block;
+  font-size: 17px;
+  font-weight: bold;
+  position: relative;
+  right: -20px;
+  text-align: right;
+}
+
+.det-03 {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 30px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 15px;
+  text-shadow: 1px 2px 2px #333;
+}
+.det-04 {
+  color: #fff;
+  display: block;
+  font-size: 12px;
+  text-align: left;
+}
+.det-02 {
+  color: #fff;
+  display: block;
+  font-size: 12px;
+  position: relative;
+  text-align: left;
+  top: 21px;
+}
+
+.det-05 {
+  color: #fff;
+  display: block;
+  font-weight: bold;
+  padding-left: 0;
+  text-align: left;
+  text-shadow: 1px 2px 2px #525252;
+}
+.det-06 {
+  color: #fff;
+  font-size: 12px;
+  position: relative;
+  right: -27px;
+  top: -44px;
+}
+.det-07 {
+  color: #fff;
+  font-weight: bold;
+  left: -30px;
+  position: relative;
+  text-shadow: 1px 2px 2px #474646;
+  top: -23px;
+}.yelow-glow .ch-overyd {
+  color: #fff;
+}
+.yelow-glow.mem-icon {
+  background-position: -4px -410px;
+  left: -6px;
+  margin-top: 40px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  position: relative;
+  text-align: center;
+  top: -2px;
+  width: 145px;
+}
+.aftr-cntent-3 {
+  border-bottom-color: #e3e3e3;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-left-color: #e3e3e3;
+  border-right-color: #e3e3e3;
+  border-top-color: #e3e3e3;
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: block;
+  padding-bottom: 20px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 20px;
+}
+.cover-foter {
+  padding-bottom: 0;
+  padding-left: 50px;
+  padding-right: 0;
+  padding-top: 25px;
+  text-align: left;
+}
+.red-border-bh {
+  background-position: -212px -373px;
+  margin-left: 24px;
+  margin-top: 19px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 9px;
+  width: 205px;
+}
+.red-border-bh .ch-overyd {
+  color: #fb4b4b;
+}
+.z-i {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("../images/b-yelow.png");
+  background-origin: padding-box;
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: auto auto;
+}
+.z-i3 {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("../images/b-red.png");
+  background-origin: padding-box;
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: auto auto;
+}
+.z-i4 {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("../images/b-blue.png");
+  background-origin: padding-box;
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: auto auto;
+}
+.z-i2 {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("../images/b-gren.png");
+  background-origin: padding-box;
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: auto auto;
+}
+.z-i5 {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("../images/b-grey.png");
+  background-origin: padding-box;
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: auto auto;
+}
+.card-holder.dataLoaded {
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  width: 440px;
+}
+.al_pay_link {
+color: #27a7f1 !important;
+}
+.n012313 {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-image: url("../images/bank/012313.png");
+  background-origin: padding-box;
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: auto auto;
+  display: block;
+  height: 30px;
+  left: 10px;
+  position: absolute;
+  width: 160px;
+}
+.z-i {
+  background-repeat: no-repeat;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+}
+.z-i.selected {
+  margin-bottom: 145px;
+}
+.z-i:last-child:hover {
+	  margin-bottom: 0px;
+}
+.z-i2, .z-i3, .z-i4, .z-i5 {
+  margin-top: -160px;
+  position: relative;
+}
+.po-middle.bx-mov {
+  margin-left: 50px;
+}
+.withdrawalmain .align-left {
+  padding-left: 19px;
+  text-align: left;
+}
+.main-wrp-card {
+  left: -3px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  position: relative;
+  top: -20px;
+  width: 360px;
+}
+.input-bind-wrp {
+  margin-bottom: 12px;
+  margin-left: 26px;
+  text-align: left;
+}
+.bindcard-content {
+  padding: 10px 0;
+}	
+.cardBind-content .card-holder {
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 30px;
+  width: 440px;
+}
+.left-text-onRed {
+  left: 145px;
+  position: relative;
+  top: 11px;
+}
+.label-name {
+  width: 108px;
+}
+#bindCardForm .label-name {
+  width: 103px;
+}
+.bindcard-content .qpAmount-input {
+  font-size: 15px;
+  font-weight: normal;
+  text-align: center;
+}
+.fx-mov {
+	right: 0 !important;
+}
+.bindCard-wrp .inline-block {
+  height: 600px;
+  width: 497px;
+}
+.enable .abs-right-red {
+  background-position: -228px -199px !important;
+  color: #fff  !important;
+  height: 59px  !important;
+  left: 10px;
+  position: absolute;
+  width: 126px;
+}
+.enable .submitTable {
+  color: #fff !important;
+}
+.enable .abs-right-red:hover {
+  background-image: url("../images/betting-sprites.png");
+  background-position: 4px -593px !important;
+  color: #fff !important;
+  height: 62px !important;
+  left: 10px;
+  position: absolute;
+  width: 126px;
+}
+.enable .abs-right-red:active {
+  background-image: url("../images/betting-sprites.png");
+  background-position: 4px -651px !important;
+  height: 50px !important;
+}
+.abs-right-red:hover .searchTable {
+  color: #fff;
+  height: 40px;
+  line-height: 39px;
+  margin-bottom: 0;
+  margin-left: 12px;
+  margin-right: auto;
+  margin-top: 4px !important;
+  width: 105px;
+}
+.abs-right-red .searchTable {
+  color: #fff;
+  height: 40px;
+  line-height: 39px;
+  margin-bottom: 0;
+  margin-left: 12px;
+  margin-right: auto;
+  margin-top: 4px !important;
+  width: 105px;
+}
+
+.abs-right-red .submitTable {
+  color: #ff0000;
+  height: 40px;
+  line-height: 39px;
+  margin-bottom: 0;
+  margin-left: 12px;
+  margin-right: auto;
+  margin-top: 4px !important;
+  width: 105px;
+}
+
+.abs-right-red input.submitTable:disabled {
+  cursor: not-allowed;
+}
+
+.bindCard-content .abs-right-red {
+  background-position: -358px -199px;
+  color: #ff0000;
+  height: 59px;
+  left: 10px;
+  position: absolute;
+  width: 126px;
+}
+.above-footer {
+  border-top: 1px solid #ddd;
+  margin-top: 10px;
+  padding: 20px 0;
+  width: 498px;
+}
+.above-footer .align-left.red {
+  padding-left: 145px;
+  text-align: left;
+}
+.above-footer .align-left.red span.blueText{
+  cursor: pointer;
+}
+.bindCard-content {
+  background: #fbfbfb none repeat scroll 0 0;
+  overflow: hidden;
+}
+.bindCard-wrp {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d7d1db+0,fbfbfb+100 */
+background: #d7d1db; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Q3ZDFkYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmYmZiZmIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #d7d1db 0%, #fbfbfb 100%); /* FF3.6-15 */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d7d1db), color-stop(100%,#fbfbfb)); /* Chrome4-9,Safari4-5 */
+background: -webkit-linear-gradient(top,  #d7d1db 0%,#fbfbfb 100%); /* Chrome10-25,Safari5.1-6 */
+background: -o-linear-gradient(top,  #d7d1db 0%,#fbfbfb 100%); /* Opera 11.10-11.50 */
+background: -ms-linear-gradient(top,  #d7d1db 0%,#fbfbfb 100%); /* IE10 preview */
+background: linear-gradient(to bottom,  #d7d1db 0%,#fbfbfb 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d7d1db', endColorstr='#fbfbfb',GradientType=0 ); /* IE6-8 */
+border-bottom-right-radius: 8px;
+}
+
+
+.escp-btn {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  color: #fff !important;
+  display: block;
+  margin: 10px auto 0;
+  padding: 5px 10px;
+  width: 110px;
+}
+.long-white {
+  background-position: -210px -419px;
+  padding-bottom: 5px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 10px;
+  width: 200px;
+}
+#bindCardForm .bindcard-content {
+  margin-top: 20px;
+}
+.long-white .qpAmount-input {
+  padding: 0 20px;
+  text-align: left;
+}
+.chosen-container .chosen-results li.highlighted {
+	color: #fa3232 !important;
+}
+.chosen-drop:before {
+  border-bottom: 15px solid #14071C;
+  border-left: 15px solid transparent;
+  border-right: 17px solid transparent;
+  content: "";
+  height: 0;
+  left: 84px;
+  position: absolute;
+  top: -14px;
+  width: 0;
+}
+.slect-box-custom-large .chosen-drop:before {
+  border-bottom: 15px solid #14071C;
+  border-left: 15px solid transparent;
+  border-right: 17px solid transparent;
+  content: "";
+  height: 0;
+  left: 152px;
+  position: absolute;
+  top: -14px;
+  width: 0;
+}
+.slect-box-custom-large-xl .chosen-drop:before {
+  border-bottom: 15px solid #14071C;
+  border-left: 15px solid transparent;
+  border-right: 17px solid transparent;
+  content: "";
+  height: 0;
+  left: 155px;
+  position: absolute;
+  top: -14px;
+  width: 0;
+}
+.slect-box-custom-large-xl.red-up {
+  background-position: -7px -263px !important;
+}
+.chosen-results li {
+  color: #fff;
+}
+.slect-box-custom-large-xl.mem-icon {
+  background-position: -213px -466px;
+  padding: 10px 0 10px 12px;
+  width: 200px;
+}
+.tableContent-wrp .tablesC {
+  font-size: 13px;
+  margin: 0 6px;
+  width: 68px;
+}
+.tableContent-wrp .tablesC span.time{
+  font-size: 12px;
+  margin-left: 7px;
+  display: inline-block;
+}
+.tableContent-wrp .inline-block.tablesC:last-child {
+  margin-left: 12px;
+  margin-right: -16px;
+  position: relative;
+  right: -8px;
+}
+.bttm-wrp-abs .ch-overyd {
+  text-align: center;
+} 
+.bttm-wrp-abs.po-middle {
+  border-left: 1px solid #ddd;
+  clear: both;
+  float: right;
+  margin: 10px 30px 0 auto;
+  text-align: center !important;
+  width: 130px;
+}
+.bttm-wrp-leftAb {
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+} 	
+
+.bttm-wrp-abs .mem-icon {
+  background-position: -201px -519px;
+  clear: both;
+  display: block;
+  margin: 0 auto;
+  padding: 9px 10px;
+  width: 115px;
+}
+
+/*************************************************Datepicker*/
+.sm-link ul li {
+  color: #fff;
+  display: block;
+  left: 50px;
+  margin: 0 auto 21px;
+  position: relative;
+  text-align: left;
+  width: 150px;
+}
+.sm-link ul {
+  border-radius: 4px;
+  box-shadow: 1px 1px 11px 1px #333;
+  height: auto;
+  left: 56px;
+  line-height: 25px;
+  min-width: 205px;
+  padding: 20px 20px 0;
+  position: absolute;
+  top: -20px;
+  z-index: 9;
+}
+.nav {
+  border: 3px solid #898989;
+  display: inline-block;
+  height: 10px;
+  margin: 0 2px;
+  padding: 5px;
+  text-indent: -999999px;
+  top: -40px;
+  width: 10px;
+  /*     border-radius: 50% 50% 50% 50% ;
+  -ms-border-radius: 50% 50% 50% 50%;
+  -moz-border-radius: 50% 50% 50% 50%;
+  -webkit-border-radius: 50% 50% 50% 50%;
+  behavior: url(./css3pie/PIE.htc); */
+}
+#sliderNav {
+  bottom: 17px;
+  position: absolute;
+  right: 28px;
+}
+.sm-link ul li:hover {
+  color: #fa3232;
+  cursor: pointer;
+}
+.slider-menu .T2KFFC:before,.slider-menu  .E11X5:before,.slider-menu  .JX11X5:before, .slider-menu .CQSSC:before {
+ /*  border-radius: 30px 30px 30px 30px;
+  -ms-border-radius: 30px 30px 30px 30px;
+  -moz-border-radius: 30px 30px 30px 30px;
+  -webkit-border-radius: 30px 30px 30px 30px;
+  behavior: url(./css3pie/PIE.htc); */
+  content: "";
+  display: block;
+  height: 26px;
+  left: -40px;
+  position: absolute;
+  width: 26px; 
+
+}
+.slide-log .slider-menu ul li:before {
+	background-image: url("../images/games-circles.png");
+}
+
+.slider-menu .CQSSC:before {
+  background-position: -10px -10px;
+  content: "";
+  display: block;
+  height: 26px;
+  left: -40px;
+  position: absolute;
+  width: 26px;
+}
+.slider-menu .T2KFFC::before {
+  background-position: -40px -10px;
+  content: "";
+  display: block;
+  height: 26px;
+  left: -40px;
+  position: absolute;
+  width: 26px;
+}
+.boxType .T2KSSC {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d80fe9+0,a301ad+100 */
+background: #d80fe9; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Q4MGZlOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNhMzAxYWQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #d80fe9 0%, #a301ad 100%); /* FF3.6-15 */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d80fe9), color-stop(100%,#a301ad)); /* Chrome4-9,Safari4-5 */
+background: -webkit-linear-gradient(top,  #d80fe9 0%,#a301ad 100%); /* Chrome10-25,Safari5.1-6 */
+background: -o-linear-gradient(top,  #d80fe9 0%,#a301ad 100%); /* Opera 11.10-11.50 */
+background: -ms-linear-gradient(top,  #d80fe9 0%,#a301ad 100%); /* IE10 preview */
+background: linear-gradient(to bottom,  #d80fe9 0%,#a301ad 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d80fe9', endColorstr='#a301ad',GradientType=0 ); /* IE6-8 */
+}
+.slider-menu .T2KSSC::before {
+  background-position: -70px -10px;
+  content: "";
+  display: block;
+  height: 26px;
+  left: -40px;
+  position: absolute;
+  width: 26px;
+}
+.boxType .TJSSC {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#28edae+0,036497+100 */
+background: #28edae; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzI4ZWRhZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMzY0OTciIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #28edae 0%, #036497 100%); /* FF3.6-15 */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#28edae), color-stop(100%,#036497)); /* Chrome4-9,Safari4-5 */
+background: -webkit-linear-gradient(top,  #28edae 0%,#036497 100%); /* Chrome10-25,Safari5.1-6 */
+background: -o-linear-gradient(top,  #28edae 0%,#036497 100%); /* Opera 11.10-11.50 */
+background: -ms-linear-gradient(top,  #28edae 0%,#036497 100%); /* IE10 preview */
+background: linear-gradient(to bottom,  #28edae 0%,#036497 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28edae', endColorstr='#036497',GradientType=0 ); /* IE6-8 */
+}
+.slider-menu .TJSSC:before {
+  background-position: -250px -10px;
+  content: "";
+  display: block;
+  height: 26px;
+  left: -40px;
+  position: absolute;
+  width: 26px;
+}
+.boxType .T2K11X5 {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff8300+0,df3b18+100 */
+background: #ff8300; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmODMwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkZjNiMTgiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #ff8300 0%, #df3b18 100%); /* FF3.6-15 */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff8300), color-stop(100%,#df3b18)); /* Chrome4-9,Safari4-5 */
+background: -webkit-linear-gradient(top,  #ff8300 0%,#df3b18 100%); /* Chrome10-25,Safari5.1-6 */
+background: -o-linear-gradient(top,  #ff8300 0%,#df3b18 100%); /* Opera 11.10-11.50 */
+background: -ms-linear-gradient(top,  #ff8300 0%,#df3b18 100%); /* IE10 preview */
+background: linear-gradient(to bottom,  #ff8300 0%,#df3b18 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8300', endColorstr='#df3b18',GradientType=0 ); /* IE6-8 */
+}
+.slider-menu .T2K11X5:before {
+  content: "";
+  display: block;
+  height: 26px;
+  left: -40px;
+  position: absolute;
+  width: 26px;
+  background-position: 246px -10px;
+}
+
+.boxType .GD11X5 {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#47b32c+0,ecc819+100 */
+background: #47b32c; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzQ3YjMyYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlY2M4MTkiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #47b32c 0%, #ecc819 100%); /* FF3.6-15 */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#47b32c), color-stop(100%,#ecc819)); /* Chrome4-9,Safari4-5 */
+background: -webkit-linear-gradient(top,  #47b32c 0%,#ecc819 100%); /* Chrome10-25,Safari5.1-6 */
+background: -o-linear-gradient(top,  #47b32c 0%,#ecc819 100%); /* Opera 11.10-11.50 */
+background: -ms-linear-gradient(top,  #47b32c 0%,#ecc819 100%); /* IE10 preview */
+background: linear-gradient(to bottom,  #47b32c 0%,#ecc819 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#47b32c', endColorstr='#ecc819',GradientType=0 ); /* IE6-8 */
+	
+	
+}
+.slider-menu .GD11X5:before {
+  border-radius: 30px;
+  content: "";
+  display: block;
+  height: 26px;
+  left: -40px;
+  position: absolute;
+  width: 26px;
+  background-position: -250px -10px;
+}
+
+.boxType .FC3D{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#09a0d0+0,17e980+100 */
+background: #09a0d0; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzA5YTBkMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMxN2U5ODAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #09a0d0 0%, #17e980 100%); /* FF3.6-15 */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#09a0d0), color-stop(100%,#17e980)); /* Chrome4-9,Safari4-5 */
+background: -webkit-linear-gradient(top,  #09a0d0 0%,#17e980 100%); /* Chrome10-25,Safari5.1-6 */
+background: -o-linear-gradient(top,  #09a0d0 0%,#17e980 100%); /* Opera 11.10-11.50 */
+background: -ms-linear-gradient(top,  #09a0d0 0%,#17e980 100%); /* IE10 preview */
+background: linear-gradient(to bottom,  #09a0d0 0%,#17e980 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#09a0d0', endColorstr='#17e980',GradientType=0 ); /* IE6-8 */
+}
+
+.slider-menu .FC3D:before {
+  background-position: -370px -10px;
+  border-radius: 30px;
+  content: "";
+  display: block;
+  height: 26px;
+  left: -40px;
+  position: absolute;
+  width: 26px;
+}
+.boxType .TCP3P5 {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e86db4+0,a925f3+100 */
+background: #e86db4; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2U4NmRiNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNhOTI1ZjMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #e86db4 0%, #a925f3 100%); /* FF3.6-15 */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e86db4), color-stop(100%,#a925f3)); /* Chrome4-9,Safari4-5 */
+background: -webkit-linear-gradient(top,  #e86db4 0%,#a925f3 100%); /* Chrome10-25,Safari5.1-6 */
+background: -o-linear-gradient(top,  #e86db4 0%,#a925f3 100%); /* Opera 11.10-11.50 */
+background: -ms-linear-gradient(top,  #e86db4 0%,#a925f3 100%); /* IE10 preview */
+background: linear-gradient(to bottom,  #e86db4 0%,#a925f3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e86db4', endColorstr='#a925f3',GradientType=0 ); /* IE6-8 */
+
+}
+.slider-menu .TCP3P5::before {
+  background-position:  -400px -10px;
+  border-radius: 30px;
+  content: "";
+  display: block;
+  height: 26px;
+  left: -40px;
+  position: absolute;
+  width: 26px;
+}
+.boxType .JX11X5 {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1c9df9+0,e9264b+100 */
+background: #1c9df9; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzFjOWRmOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlOTI2NGIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #1c9df9 0%, #e9264b 100%); /* FF3.6-15 */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1c9df9), color-stop(100%,#e9264b)); /* Chrome4-9,Safari4-5 */
+background: -webkit-linear-gradient(top,  #1c9df9 0%,#e9264b 100%); /* Chrome10-25,Safari5.1-6 */
+background: -o-linear-gradient(top,  #1c9df9 0%,#e9264b 100%); /* Opera 11.10-11.50 */
+background: -ms-linear-gradient(top,  #1c9df9 0%,#e9264b 100%); /* IE10 preview */
+background: linear-gradient(to bottom,  #1c9df9 0%,#e9264b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c9df9', endColorstr='#e9264b',GradientType=0 ); /* IE6-8 */
+	
+}
+
+.slider-menu .JX11X5:before {
+  background-position: -220px -10px;
+  border-radius: 30px;
+  content: "";
+  display: block;
+  height: 26px;
+  left: -40px;
+  position: absolute;
+  width: 26px;
+}
+.boxType .SD11X5 {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff6bb4+0,ff8587+100 */
+background: #ff6bb4; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmNmJiNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZjg1ODciIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #ff6bb4 0%, #ff8587 100%); /* FF3.6-15 */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff6bb4), color-stop(100%,#ff8587)); /* Chrome4-9,Safari4-5 */
+background: -webkit-linear-gradient(top,  #ff6bb4 0%,#ff8587 100%); /* Chrome10-25,Safari5.1-6 */
+background: -o-linear-gradient(top,  #ff6bb4 0%,#ff8587 100%); /* Opera 11.10-11.50 */
+background: -ms-linear-gradient(top,  #ff6bb4 0%,#ff8587 100%); /* IE10 preview */
+background: linear-gradient(to bottom,  #ff6bb4 0%,#ff8587 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6bb4', endColorstr='#ff8587',GradientType=0 ); /* IE6-8 */
+}
+.slider-menu .SD11X5::before {
+  background-position: -280px -10px;
+  border-radius: 30px;
+  content: "";
+  display: block;
+  height: 26px;
+  left: -40px;
+  position: absolute;
+  width: 26px;
+}
+
+.slider-menu .CQ11X5:before {
+  border-radius: 30px 30px 30px 30px;
+  -ms-border-radius: 30px 30px 30px 30px;
+  -moz-border-radius: 30px 30px 30px 30px;
+  -webkit-border-radius: 30px 30px 30px 30px;
+  behavior: url(./css3pie/PIE.htc);
+  content: "";
+  display: block;
+  height: 26px;
+  left: -40px;
+  position: absolute;
+  width: 26px; 
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9e63fc+0,5b03cc+100 */
+background: #9e63fc; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzllNjNmYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM1YjAzY2MiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #9e63fc 0%, #5b03cc 100%); /* FF3.6-15 */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#9e63fc), color-stop(100%,#5b03cc)); /* Chrome4-9,Safari4-5 */
+background: -webkit-linear-gradient(top,  #9e63fc 0%,#5b03cc 100%); /* Chrome10-25,Safari5.1-6 */
+background: -o-linear-gradient(top,  #9e63fc 0%,#5b03cc 100%); /* Opera 11.10-11.50 */
+background: -ms-linear-gradient(top,  #9e63fc 0%,#5b03cc 100%); /* IE10 preview */
+background: linear-gradient(to bottom,  #9e63fc 0%,#5b03cc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9e63fc', endColorstr='#5b03cc',GradientType=0 ); /* IE6-8 */
+}
+.slider-menu .JXSSC:before, .slider-menu .GD11X5:before {
+  background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #03d7a9 0%, #006c9c 100%) repeat scroll -130px -10px;
+  border-radius: 30px;
+  content: "";
+  display: block;
+  height: 26px;
+  left: -40px;
+  position: absolute;
+  width: 26px;
+}
+
+.slider-menu .HLJSSC::before {
+  background-position: -160px -10px;
+  border-radius: 30px;
+  content: "";
+  display: block;
+  height: 26px;
+  left: -40px;
+  position: absolute;
+  width: 26px;
+}
+.sm-link ul:before {
+  border-bottom: 27px solid transparent;
+  border-right: 30px solid #14071c;
+  border-top: 23px solid transparent;
+  content: "";
+  height: 0;
+  left: -20px;
+  position: absolute;
+  top: 10px;
+  width: 0;
+}
+#ui-datepicker-div, .sm-link ul  {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#14061b+0,181334+100 */
+background: #14061b; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzE0MDYxYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMxODEzMzQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #14061b 0%, #181334 100%); /* FF3.6-15 */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#14061b), color-stop(100%,#181334)); /* Chrome4-9,Safari4-5 */
+background: -webkit-linear-gradient(top,  #14061b 0%,#181334 100%); /* Chrome10-25,Safari5.1-6 */
+background: -o-linear-gradient(top,  #14061b 0%,#181334 100%); /* Opera 11.10-11.50 */
+background: -ms-linear-gradient(top,  #14061b 0%,#181334 100%); /* IE10 preview */
+background: linear-gradient(to bottom,  #14061b 0%,#181334 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#14061b', endColorstr='#181334',GradientType=0 ); /* IE6-8 */
+  min-width: 205px;
+}
+
+#ui-datepicker-div .ui-state-default {
+  background: transparent none repeat scroll 0 0 !important;
+  font-size: 13px;
+  text-align: center !important;
+  width: 25px;
+  height: 26px;
+  border: 0 !important;
+}
+
+#ui-datepicker-div .ui-state-default.ui-state-hover {
+  /*color: #fc6568 !important;*/
+  background: #453d53 !important; 
+    border-radius: 100% 100% 100% 100% ;
+  -ms-border-radius: 100% 100% 100% 100%;
+  -moz-border-radius: 100% 100% 100% 100%;
+  -webkit-border-radius: 100% 100% 100% 100%;
+  behavior: url(./css3pie/PIE.htc);
+}
+.ui-datepicker-today .ui-state-default.ui-state-highlight {
+  color: #fff !important;
+} 
+
+#ui-datepicker-div .ui-state-active {
+  /*color: #5b5261 !important;*/
+  color: #fc6568 !important;
+  background: #453d53 !important; 
+    border-radius: 100% 100% 100% 100% ;
+  -ms-border-radius: 100% 100% 100% 100%;
+  -moz-border-radius: 100% 100% 100% 100%;
+  -webkit-border-radius: 100% 100% 100% 100%;
+  behavior: url(./css3pie/PIE.htc);
+
+}
+#ui-datepicker-div .ui-datepicker-unselectable.ui-state-disabled span {
+  color: #D8CBE1!important;
+}
+.ui-datepicker-header {
+  background: transparent;
+  border: 0;
+}
+.ui-datepicker th {
+  border: 0 none;
+  font-weight: normal;
+  padding: 0;
+  text-align: center;
+}
+thead {
+  border-bottom: 1px solid;
+}
+.ui-icon-circle-triangle-w {
+  background-position: -97px 0px;
+}
+.ui-icon-circle-triangle-e {
+  background-position: -31px 0px;
+}
+ #ui-datepicker-div {
+      margin-top: 20px;
+} 
+.ui-datepicker-calendar span, .ui-datepicker-title span {
+  color: #fff !important;
+}
+.tableContent .inline-block.tablesC.RemarksData {
+  color: #338df9;
+  position: relative;
+}
+.cm_number.hide {
+  display: none;
+}
+.hover-data:before, .cm_number:before {
+  border-bottom: 15px solid #ffd371;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  content: "";
+  height: 0;
+  left: 130px;
+  position: absolute;
+  top: -9px;
+  width: 0;
+}
+#ui-datepicker-div.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all:before {
+  background: rgba(0, 0, 0, 0) url("../images/c-arrow.png") repeat scroll 0 0;
+  color: #000;
+  content: ".";
+  left: 93px;
+  position: absolute !important;
+  top: -16px;
+  width: 32px;
+}
+
+.RemarksData:hover .hover-data {
+	box-shadow: 2px 2px 12px 0 #999;
+	top: 25px;
+	left: -90px;
+ 	min-width: 310px;
+  	border-radius: 4px;
+    color: #595656;
+    display: block;
+    padding: 12px;
+    position: absolute;
+	background: rgb(255,210,111); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(255,210,111,1) 0%, rgba(255,225,144,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(255,210,111,1) 0%,rgba(255,225,144,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(255,210,111,1) 0%,rgba(255,225,144,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd26f', endColorstr='#ffe190',GradientType=0 ); /* IE6-9 */
+}
+
+.bet_number:hover .cm_number{
+  border-radius: 4px;
+  box-shadow: 2px 2px 12px 0 #999;
+  color: #595656;
+  display: block;
+  font-size: 12px !important;
+  left: 100px;
+  min-width: 310px;
+  padding: 12px;
+  position: absolute;
+  top: 45px;
+  width: 320px;
+  z-index: 9;
+    position: absolute;
+	background: rgb(255,210,111); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(255,210,111,1) 0%, rgba(255,225,144,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(255,210,111,1) 0%,rgba(255,225,144,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(255,210,111,1) 0%,rgba(255,225,144,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd26f', endColorstr='#ffe190',GradientType=0 ); /* IE6-9 */
+}
+
+.cm_number.hide > li {
+  display: block;
+  line-height: 21px;
+  margin: 0;
+  padding: 2px 0;
+  text-align: center;
+  width: 100%;
+}
+.lot-type-text:hover .hover-data {
+	box-shadow: 2px 2px 12px 0 #999;
+	top: 35px;
+	left: -120px;
+ 	min-width: 310px;
+  	border-radius: 4px;
+    color: #595656;
+    display: block;
+    padding: 12px;
+    position: absolute;
+	background: rgb(255,210,111); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(255,210,111,1) 0%, rgba(255,225,144,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(255,210,111,1) 0%,rgba(255,225,144,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(255,210,111,1) 0%,rgba(255,225,144,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd26f', endColorstr='#ffe190',GradientType=0 ); /* IE6-9 */
+	width: 370px;
+	font-size: 13px;
+}
+.lot-type-text .hover-data::before {
+  left: 165px;
+
+}
+.lot-type-text .hover-data {
+  z-index: 9;
+}
+#onlinePayment .top-contner {
+  position: relative;
+}
+.bl-data-hover {
+  border-radius: 4px;
+  clear: both;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  left: 0;
+  margin: 0 auto 0 150px;
+  max-width: 190px;
+  min-width: 100px;
+  padding: 5px 10px;
+  position: absolute;
+  right: 0;
+  text-shadow: 1px 1px 1px #141414;
+  top: 68px;
+}
+.txt-input-longAmount:hover .bl-data-hover {
+	display:block;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1237a7+0,27a7e4+100 */
+background: #1237a7; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzEyMzdhNyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMyN2E3ZTQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #1237a7 0%, #27a7e4 100%); /* FF3.6-15 */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1237a7), color-stop(100%,#27a7e4)); /* Chrome4-9,Safari4-5 */
+background: -webkit-linear-gradient(top,  #1237a7 0%,#27a7e4 100%); /* Chrome10-25,Safari5.1-6 */
+background: -o-linear-gradient(top,  #1237a7 0%,#27a7e4 100%); /* Opera 11.10-11.50 */
+background: -ms-linear-gradient(top,  #1237a7 0%,#27a7e4 100%); /* IE10 preview */
+background: linear-gradient(to bottom,  #1237a7 0%,#27a7e4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1237a7', endColorstr='#27a7e4',GradientType=0 ); /* IE6-8 */
+}
+.bl-data-hover:before {
+  border-bottom: 15px solid #1441ac;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  content: "";
+  height: 0;
+  left: 80px;
+  position: absolute;
+  top: -12px;
+  width: 0;
+}
+.mainTab2-wrp-content.tabContent {
+  border-bottom: 1px solid #ddd;
+  height: 282px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.game-icons.cancel-x {
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 10px;
+  width: 25px;
+}
+.tz_history_content {
+  height: 291px;
+  overflow: auto;
+}
+.tz_history_content > ul {
+  position: relative;
+}
+#tab2 .tz_history_content dt, #tab2 .tz_title_content dt {
+  display: inline-block;
+  line-height: 48px;
+  text-align: center;
+  width: 140px;
+}
+#tab2 .tz_history_content li, #tab2  .tz_title_content li {
+  display: inline-block;
+  line-height: 48px;
+  text-align: center;
+  width: 140px;
+	
+}
+.tz_history_content dt, .tz_title_content dt {
+  display: inline-block;
+  line-height: 48px;
+  text-align: center;
+  width: 165px;
+}
+.bet-con .tablinks {
+  color: #000;
+  cursor: pointer;
+  font-size: 15px;
+  height: 48px;
+  line-height: 50px;
+  padding: 0 47px;
+}
+
+
+.lt-tb-row em {
+  display: block;
+  font-size: 12px;
+  font-style: normal;
+  text-align: left;
+}
+.lt-tb-row {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("../images/betting-sprites.png");
+  background-origin: padding-box;
+  background-position: -143px -210px;
+  background-repeat: repeat;
+  background-size: auto auto;
+  height: 50px;
+  padding-bottom: 14px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 14px;
+  position: absolute;
+  text-align: center;
+  width: 80px;
+}
+.ch-xs {
+  background: rgba(0, 0, 0, 0) url("../images/betting-sprites.png") repeat scroll -143px -210px;
+  padding: 4px 18px 9px 10px;
+  position: absolute;
+  text-align: center;
+}
+.child_menu ul li {
+  color: #fff;
+  margin-left: 20px;
+  position: relative;
+}
+.child_menu.hide li:hover:before {
+  background: red none repeat scroll 0 0;
+  border-radius: 50%;
+  content: "";
+  height: 10px;
+  left: -17px;
+  position: absolute;
+  top: 7px;
+  width: 10px;
+}
+.menu-loterry li ul ul {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("../images/submenu.png");
+  background-origin: padding-box;
+  background-position: 0 0;
+  display: inline-block !important;
+  height: 200px;
+  padding: 10px 0 0 7px;
+  position: relative;
+  text-align: left;
+  vertical-align: top;
+  width: 119px;
+}
+ .menu-loterry li:hover ul {
+  display: block;
+} 
+.with_child:hover {
+  background: #0F0516 none repeat scroll 0 0;
+  border-radius: 15px 15px 0 0;
+}
+.select-game-icon:hover .gameList {
+  display: block;
+  padding-bottom: 20px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 20px;
+}
+.gameList:before {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("../images/c-arrow.png");
+  background-origin: padding-box;
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  content: "";
+  height: 14px;
+  left: 98px;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0px;
+  padding-top: 0px;
+  position: absolute;
+  width: 31px;
+  top: -14px;
+  left: 20px;
+}
+.gameList {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#14061b+0,181334+100 */
+background: #14061b; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzE0MDYxYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMxODEzMzQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #14061b 0%, #181334 100%); /* FF3.6-15 */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#14061b), color-stop(100%,#181334)); /* Chrome4-9,Safari4-5 */
+background: -webkit-linear-gradient(top,  #14061b 0%,#181334 100%); /* Chrome10-25,Safari5.1-6 */
+background: -o-linear-gradient(top,  #14061b 0%,#181334 100%); /* Opera 11.10-11.50 */
+background: -ms-linear-gradient(top,  #14061b 0%,#181334 100%); /* IE10 preview */
+background: linear-gradient(to bottom,  #14061b 0%,#181334 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#14061b', endColorstr='#181334',GradientType=0 ); /* IE6-8 */
+  background-origin: padding-box;
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: auto auto;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  box-shadow: 3px 2px 20px 0 #484747;
+  position: absolute;
+  top: 85px;
+  z-index: 9;
+}
+.mosTplayed:after {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("../images/icons.png");
+  background-origin: padding-box;
+  background-position: -215px -71px;
+  background-repeat: repeat;
+  background-size: auto auto;
+  content: "";
+  height: 20px;
+  position: absolute;
+  right: -10px;
+  width: 30px;
+}
+
+.newGame:after {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("../images/icons.png");
+  background-origin: padding-box;
+  background-position: -250px -71px;
+  background-repeat: repeat;
+  background-size: auto auto;
+  content: "";
+  height: 20px;
+  position: absolute;
+  right: -10px;
+  width: 30px;
+}
+.gameList.hide > ul,.gameList.hide > ol {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("../images/submenu.png");
+  background-origin: padding-box;
+  background-position: right center;
+  background-repeat: repeat-y;
+  background-size: auto auto;
+  display: inline-block;
+  height: 265px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+  position: relative;
+  vertical-align: top;
+  width: 170px;
+}
+.gameList li:hover:before, .gameList li.selected:before {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: #ff0000;
+  background-image: none;
+  background-origin: padding-box;
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: auto auto;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  content: "";
+  height: 10px;
+  left: -20px;
+  position: absolute;
+  top: 6px;
+  width: 10px;
+}
+.wrapper .group_SSC:before, .slect-box-custom-medium.show-data .gameList .group_SSC:before  {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("../images/icons.png");
+  background-origin: padding-box;
+  background-position: -228px -110px !important;
+  background-repeat: repeat;
+  background-size: auto auto;
+  content: "";
+  display: block;
+  height: 50px;
+  left: 60px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  position: absolute !important;
+  top: -3px;
+  width: 50px;
+}
+.wrapper .group_11X5:before, .slect-box-custom-medium.show-data .gameList .group_11X5:before  {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("../images/icons.png");
+  background-origin: padding-box;
+  background-position: -228px -160px !important;
+  background-repeat: repeat;
+  background-size: auto auto;
+  content: "";
+  display: block;
+  height: 50px;
+  left: 60px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  position: absolute !important;
+  top: -3px;
+  width: 50px;
+}
+.wrapper .group_LF:before,.slect-box-custom-medium.show-data .gameList .group_LF:before  {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("../images/icons.png");
+  background-origin: padding-box;
+  background-position: -228px -212px !important;
+  background-repeat: repeat;
+  background-size: auto auto;
+  content: "";
+  display: block;
+  height: 50px;
+  left: 60px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  position: absolute !important;
+  top: -3px;
+  width: 50px;
+}
+.gameList li:before {
+  border: 1px solid;
+  width: 10px ;
+  position: absolute;
+  left: 0;
+  content: "";
+  top: 4px;
+  left: -20px;
+  height: 10px;
+  border-radius: 50%;
+}
+.wrapper .group_games:before,.slect-box-custom-medium.show-data .gameList .group_PVPGAMES:before {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("../images/icons.png");
+  background-origin: padding-box;
+  background-position: -228px -265px !important;
+  background-repeat: repeat;
+  background-size: auto auto;
+  content: "";
+  display: block;
+  height: 60px;
+  left: 50px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  position: absolute !important;
+  top: -3px;
+  width: 50px;
+}
+.gameList.hide li {
+  color: #fff;
+  margin-bottom: 0;
+  margin-left: 10px;
+  margin-right: 0;
+  margin-top: 16px;
+  position: relative;
+  cursor: pointer;
+}
+.gameList.hide li:hover, .gameList.hide li.selected {
+  color: #fa3232;
+}
+.child_menu {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0f0516+0,0f0516+100 */
+background: #0f0516; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzBmMDUxNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwZjA1MTYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #0f0516 0%, #0f0516 100%); /* FF3.6-15 */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0f0516), color-stop(100%,#0f0516)); /* Chrome4-9,Safari4-5 */
+background: -webkit-linear-gradient(top,  #0f0516 0%,#0f0516 100%); /* Chrome10-25,Safari5.1-6 */
+background: -o-linear-gradient(top,  #0f0516 0%,#0f0516 100%); /* Opera 11.10-11.50 */
+background: -ms-linear-gradient(top,  #0f0516 0%,#0f0516 100%); /* IE10 preview */
+background: linear-gradient(to bottom,  #0f0516 0%,#0f0516 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f0516', endColorstr='#0f0516',GradientType=0 ); /* IE6-8 */
+
+  border-radius: 0 5px 5px;
+  box-shadow: 9px 0 27px rgba(0, 0, 0, 0.75);
+  margin-left: -21px;
+  margin-top: 4px;
+  min-width: 130px;
+  padding: 20px 0 10px 30px;
+  position: absolute;
+  text-align: left;
+  width: auto;
+  z-index: 9;
+}
+.game-date > li, .game-timer li,.game-jackpot-rb li {
+  display: inline-block;
+}
+ .abal-cont {
+  background: rgba(0, 0, 0, 0) url("../images/mem-icon.png") no-repeat scroll -3px -94px;
+  height: 37px;
+  line-height: 40px;
+  margin: 0 auto;
+  width: 203px;
+}
+.bal-amnt {
+  display: inline-block;
+}
+.inline-block.how-to-deposit {
+  position: relative;
+  text-align: left;
+  top: 4px;
+  width: 90px;
+}
+.inline-block.withdraw-notice {
+  text-align: right;
+  width: 90px;
+    position: relative;
+      top: 4px;
+}
+ul.hp-links li {
+  color: #666 !important;
+  display: inline-block;
+  float: left;
+  margin-left: 12px;
+  padding: 7px 0;
+  position: relative;
+  vertical-align: bottom;
+}
+
+.box-main-wrp .boxType li {
+  border-radius: 4px;
+  display: inline-block;
+  height: 204px;
+  padding: 17px 0 21px;
+  text-align: center;
+  width: 213px;
+}
+.box-g-pur {
+  margin: 0 !important;
+}
+.boxType * {
+  color: #fff;
+}
+
+.bindCard-content {
+  position: relative;
+}
+/**************************************Bank Card*/
+
+.bankLogo-Card {
+  background: url("../images/bankLogo.png");
+  display: inline-block;
+  height: 40px;
+  left: 10px;
+  position: absolute;
+  width: 150px;
+  top: 9px;
+}
+.bank-0302 {
+  background-position: -40px -70px;
+}
+.bank-0300 {
+  background-position: -40px -30px;
+}
+.bank-0301{
+	 background-position: -208px -70px;
+}
+.bank-0303 {
+	 background-position: -371px -188px;
+}
+.bank-0304 {
+	 background-position: -208px -150px;
+}
+
+.bank-0305 {
+	 background-position: -43px -106px;
+}
+/* .bank-0306 {
+	 background-position: -43px -146px;
+} */
+.bank-0307 {
+	 background-position: -371px -70px;
+}
+
+.bank-0308 {
+	 background-position: -536px -107px;
+}
+.bank-0309 {
+	 background-position:  -208px -186px;
+}
+
+.bank-0310 {
+	 background-position:  -371px -106px;
+}
+.bank-0311 {
+	 background-position:  -371px -147px;
+}
+.bank-0314 {
+	 background-position:  -208px -26px;
+}
+.bank-0315 {
+	 background-position:   -371px -26px;
+}
+.bank-0316 {
+	 background-position:   -371px -346px;
+}
+.game-icons.menu-tab-right.inline-block {
+  background-position: -4px -8px;
+}
+.game-icons.menu-tab-right2.inline-block.active {
+  background-position: -69px -40px;
+}
+.white-border-button, .red-border-button {
+  position: relative;
+  top: 2px;
+  left: -2px;
+}
+.child_menu.hide  li {
+  padding: 0 20px 0 0;
+  position: relative;
+  vertical-align: top;
+}
+#bindCardForm .form-control.ch-overyd {
+  padding: 0 20px;
+}
+.boxType li {
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-left: 17px;
+  text-align: center;
+}
+.boxType {
+  margin-top: 6px;
+}
+.boxType li:first-child, .boxType li:first-child + li + li + li + li,.boxType li:first-child + li + li + li + li+ li + li + li + li,.boxType li:first-child + li + li + li + li+ li + li + li + li + li + li + li + li {
+  margin-left: 0;
+}
+.box-title {
+	background-image: url("../images/hotgames.png");
+	  display: block;
+    height: 70px;
+    margin: 0 auto;
+    width: 110px;
+	
+}
+.boxType .PVPGAME {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f29d07+0,ffde2e+100 */
+background: #f29d07; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2YyOWQwNyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmRlMmUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #f29d07 0%, #ffde2e 100%); /* FF3.6-15 */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f29d07), color-stop(100%,#ffde2e)); /* Chrome4-9,Safari4-5 */
+background: -webkit-linear-gradient(top,  #f29d07 0%,#ffde2e 100%); /* Chrome10-25,Safari5.1-6 */
+background: -o-linear-gradient(top,  #f29d07 0%,#ffde2e 100%); /* Opera 11.10-11.50 */
+background: -ms-linear-gradient(top,  #f29d07 0%,#ffde2e 100%); /* IE10 preview */
+background: linear-gradient(to bottom,  #f29d07 0%,#ffde2e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f29d07', endColorstr='#ffde2e',GradientType=0 ); /* IE6-8 */
+	
+}
+.boxType .FISHING {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#257ad1+0,f0c47d+100 */
+background: #257ad1; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzI1N2FkMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmMGM0N2QiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #257ad1 0%, #f0c47d 100%); /* FF3.6-15 */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#257ad1), color-stop(100%,#f0c47d)); /* Chrome4-9,Safari4-5 */
+background: -webkit-linear-gradient(top,  #257ad1 0%,#f0c47d 100%); /* Chrome10-25,Safari5.1-6 */
+background: -o-linear-gradient(top,  #257ad1 0%,#f0c47d 100%); /* Opera 11.10-11.50 */
+background: -ms-linear-gradient(top,  #257ad1 0%,#f0c47d 100%); /* IE10 preview */
+background: linear-gradient(to bottom,  #257ad1 0%,#f0c47d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#257ad1', endColorstr='#f0c47d',GradientType=0 ); /* IE6-8 */
+}
+.PVPGAME .box-title {
+  background-position: 3px -100px;
+}
+.FISHING .box-title {
+  background-position: -139px -97px;
+}
+.boxType .HLJSSC .box-title {
+  background-position: -589px -24px;
+}
+.SD11X5 .box-title {
+  background-position: -450px -25px;
+}
+.T2K11X5 .box-title {
+  background-position: -19px -20px ;
+}
+.JX11X5 .box-title {
+  background-position: -162px -20px;
+}
+.FC3D .box-title {
+  background-position: -292px -96px;
+  width: 140px;
+}
+.TCP3P5 .box-title {
+  background-position: -540px -100px;
+}
+.GD11X5 .box-title {
+  background-position: -1170px -20px;
+}
+.TJSSC .box-title {
+  background-position: -736px -21px;
+}
+.XJSSC .box-title {
+  background-image: url("../images/box-game-4.png");
+}
+.game-icons.lot-tab2.inline-block.active {
+  background-position: -190px -51px;
+  padding: 8px 10px;
+}
+.game-icons.lot-tab.inline-block {
+  background-position: -137px -8px;
+  padding: 8px 10px;
+}
+.ch-history-con * ,.ch-history-con-right *{
+  font-size: 12px;
+  line-height: 20px;
+}
+.ch-history-con-right {
+  float: right;
+  font-size: 12px;
+  text-align: right;
+  width: 90px;
+}
+.jp-history-list:hover .ch_last_game.hide {
+display: block;
+position: absolute;
+top: 25px;
+text-align: center;
+right: -13px;
+padding: 20px;
+z-index: 9;
+width: 290px;
+background-attachment: scroll;
+background-clip: border-box;
+background-color: rgba(0, 0, 0, 0);
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#14061b+0,181334+100 */
+background: #14061b; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzE0MDYxYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMxODEzMzQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #14061b 0%, #181334 100%); /* FF3.6-15 */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#14061b), color-stop(100%,#181334)); /* Chrome4-9,Safari4-5 */
+background: -webkit-linear-gradient(top,  #14061b 0%,#181334 100%); /* Chrome10-25,Safari5.1-6 */
+background: -o-linear-gradient(top,  #14061b 0%,#181334 100%); /* Opera 11.10-11.50 */
+background: -ms-linear-gradient(top,  #14061b 0%,#181334 100%); /* IE10 preview */
+background: linear-gradient(to bottom,  #14061b 0%,#181334 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#14061b', endColorstr='#181334',GradientType=0 ); /* IE6-8 */
+box-shadow: 2px 2px 12px 1px #333;
+border-radius: 8px 8px 8px 8px;
+-ms-border-radius: 8px 8px 8px 8px;
+-moz-border-radius: 8px 8px 8px 8px;
+-webkit-border-radius: 8px 8px 8px 8px;
+behavior: url(./css3pie/PIE.htc);
+
+}
+.draw_winning {
+  color: #3c6ede !important;
+  font-weight: bold !important;
+}
+.draw_sum {
+  font-weight: bold;
+}
+.ch_last_game .highest {
+	color: #f50303 !important;
+}
+.ch_last_game li {
+  color: #fff;
+  display: inline-block;
+  font-size: 12px;
+  margin: 3px 5px;
+}
+#drawResult .ball-rolling {
+  background: rgba(0, 0, 0, 0) url("../images/ball-ani.gif") no-repeat scroll 0 0;
+}
+.ch-history-con-right .alignright {
+  float: none;
+}
+.prsnl-row-2 form.reg-form div .err-msg, .err-msg {
+  position: absolute;
+  right: 0;
+  top: 27px;
+  z-index: 10;
+}
+
+
+
+
+.select-game-icon {
+  background-image: url("../images/mem-game-type.png");
+  background-repeat: no-repeat;
+  cursor: pointer;
+  margin-top: 1px;
+}
+.game-timer-con.alignleft {
+  position: relative;
+  top: 4px;
+}
+.select-game-icon.CQSSC {
+  background-position: -16px -993px;
+}
+.select-game-icon.T2KFFC {
+  background-position: -15px -633px;
+}
+.select-game-icon.T2KSSC {
+  background-position: -12px -547px;
+}
+.select-game-icon.SD11X5 {
+	 background-position: -11px -459px;
+}
+.select-game-icon.JX11X5 {
+  background-position: -11px -280px;
+}
+.select-game-icon.T2K11X5 {
+  background-position: -9px -192px;
+}
+.select-game-icon.HLJSSC {
+  background-position: -16px -816px;
+}
+.select-game-icon.XJSSC {
+  background-position: -16px -724px;
+}
+.select-game-icon.TJSSC {
+  background-position: -16px -905px;
+}
+
+.select-game-icon.FISHING {
+  background-position: -18px -1084px;
+}
+.select-game-icon.GD11X5 {
+	background-position: -11px -370px;
+}
+.select-game-icon.TCP3P5 {
+	background-position: -10px -18px;
+}
+.select-game-icon.FC3D {
+	background-position: -10px -106px;
+}
+
+.select-game-icon.PVPGAME {
+	background-position: -20px -1175px;
+}
+.jackpot-history-con.alignleft {
+  float: right;
+  width: 205px;
+}
+.draw_winning {
+  min-width: 110px;
+  text-align: left;
+}
+.draw_date {
+  min-width: 110px;
+  text-align: left;
+}
+.jph-con li ul li {
+  color: #27a7f1;
+  display: inline;
+  font-weight: bold;
+  padding: 0 3px;
+}
+.jackpot-history-con .sumNumber {
+  color: red !important;
+}
+.jph-con .alignleft {
+  display: inline-block;
+  min-width: 92px;
+}
+.draw_winning li {
+  color: #3c6ede !important;
+  margin: 0;
+  padding: 0 3px;
+}
+.draw_winning > ul {
+  margin: 0;
+}
+.game-jackpot-rb {
+  clear: both;
+  left: -23px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7px;
+  position: relative;
+  width: 330px;
+}
+.rs-mm .tbl-total-con.inline-block.prsnl-left {
+  margin-left: 130px;
+}
+#totalPlannedAmount {
+  position: absolute;
+  right: 109px;
+}
+#drawResult li {
+  float: left;
+}
+.bet_number {
+  height: 48px;
+  width: 1112px;
+}
+.inline-block.game-icons.btn.plus_btn {
+  position: relative;
+  right: -2px;
+  top: 2px;
+}
+.p-amount {
+  padding: 0 7px;
+}
+.prsnl-game-name span {
+  background-image: url("../images/mem-game-type.png");
+  background-repeat: no-repeat;
+  cursor: pointer;
+  display: block;
+  height: 100%;
+  margin-left: 25px;
+  margin-top: 10px;
+  width: 100%;
+}
+.prsnl-game-name #rm_CQSSC {
+  background-position: -11px -997px;
+}
+.prsnl-game-name #rm_T2KFFC {
+  background-position: -11px -635px;
+}
+.prsnl-game-name #rm_T2KSSC {
+	 background-position: -11px -543px;
+}
+.prsnl-game-name #rm_SD11X5 {
+	 background-position: -11px -457px;
+}
+.prsnl-game-name #rm_JX11X5 {
+	 background-position: -11px -277px;
+}
+.prsnl-game-name #rm_T2K11X5 {
+	background-position: -11px -190px;
+}
+.prsnl-game-name #rm_HLJSSC {
+	background-position: -11px -812px;
+}
+.prsnl-game-name #rm_XJSSC {
+	background-position: -11px -722px;
+}
+.prsnl-game-name #rm_TJSSC {
+	background-position: -11px -906px;
+}
+
+.prsnl-game-name #rm_FISHING{
+	background-position: -11px -1084px;
+}
+.prsnl-game-name #rm_GD11X5 {
+	background-position: -11px -366px;
+}
+.prsnl-game-name #rm_FC3D {
+	background-position: -10px -14px;
+}
+.prsnl-game-name #rm_TCP3P5 {
+	background-position: -10px -100px;
+}
+
+.prsnl-game-name #rm_PVPGAME {
+		background-position: -16px -1169px;
+}
+.reg-page .err-cont.ch-class {
+  right: 210px;
+}
+.soon {
+  cursor: text !important;
+}
+.rm-soon {
+  border: 0 none !important;
+  color: #000 !important;
+  border-left: 1px solid #ccc !important;
+  cursor: text !important;
+}
+#myProfileForm .rowTwo-wrp .err-msg .the-err-msg
+{
+	display: block;
+	padding: 24px 0px;
+	text-align: center;
+}
+.orderAmount {
+  text-align: right !important;
+  position: relative;
+  left: -12px;
+}
+.cm_number.hide {
+  line-height: 21px;
+  word-wrap: break-word;
+}
+.orderStakes {
+  position: relative;
+  left: 13px;
+}
+.tz-mainWrp {
+  position: relative;
+  left: 21px;
+}
+/* .abs-right-red input[disabled] {
+  background: #8f8585 none repeat scroll 0 0 !important;
+  border-radius: 40px;
+  color: #fff;
+  cursor: not-allowed;
+  margin-left: 16px;
+}
+.abs-right-red:hover input[disabled] {
+  margin-left: 15px;
+} */
+.ctie-btn.zeroclipboard-is-hover {
+  background: #ebeaea none repeat scroll 0 0;
+  border-radius: 50px;
+  box-shadow: 0 -2px 4px -1px #333 inset;
+  color: #888;
+  height: 29px;
+}
+#backToForgetPassword {
+  margin-left: 2px;
+}
+.xt-data-fix .tbl-total-con {
+  margin-left: 70px;
+}
+.xt-data-fix #totalPlannedAmount {
+  position: absolute;
+  right: 108px;
+}
+.po-middle.watch-input {
+  background: rgba(0, 0, 0, 0) url("../images/betting-sprites.png") repeat scroll -1051px -105px;
+  padding: 8px 6px;
+  text-align: center;
+  width: 67px;
+}
+.watch-input .ch-overyd {
+  text-align: center;
+}
+#channelPayment .align-left.po-middle {
+  margin: 0;
+}
+.slider-personal {
+  background: rgba(0, 0, 0, 0) url("../images/perslider.png") no-repeat scroll 0 0;
+  height: 20px;
+  width: 280px;
+}
+.sliderBtn-personal {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("../images/persliderbtn.png");
+  background-origin: padding-box;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  cursor: pointer;
+  display: inline-block;
+  height: 22px;
+  left: -3px;
+  position: absolute;
+  top: -2px;
+  width: 22px;
+}
+.personal_wrp_slider {
+  left: 20px;
+  position: relative;
+}
+.sliderLegend > li:first-child {
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+}
+.sliderLegend > li {
+  display: inline-block;
+  margin-bottom: 0;
+  margin-left: 41px;
+  margin-right: 6px;
+  margin-top: 0;
+}
+.sliderLegend .selected {
+  color: #F24545;
+}
+.channelPaymentbtn .abs-right-red {
+  position: relative;
+  right: -10px;
+}
+.channelPaymentbtn input {
+  color: #fff !important;
+}
+#channelPayment .inline-block.top-contner {
+  padding-bottom: 13px;
+}
+.channelPayment-wrp {
+  height: 435px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 18px;
+}
+.channelPaymentbtn {
+  border-top-color: #ddd;
+  border-top-style: solid;
+  border-top-width: 1px;
+  padding-top: 10px;
+}
+.personal_wrp_slider {
+  position: relative;
+}
+#gameSeries .dira-regdline-gb-list {
+  margin: 0 auto;
+  width: 950px;
+}
+.watchLogo > img {
+  position: relative;
+  top: -7px;
+}
+
+/*************************Responsive*/
+@media only screen and (max-width: 1365px) {
+body {
+  min-width: 1346px;
+}
+}
+
+
+
+
+
+
+/*************************ca to jlo*/
+.rs-mm.memberManagement .abs-right-red:active, .rs-ppalStat .abs-right-red:active {
+  background-position: -2px -655px;
+  height: 50px;
+  margin-bottom: 5px;
+}
+.s-img-cont {
+  width: 100%;
+}
+.sm-cont .the-slider {
+  background-position: -5px -3px;
+  left: 7px;
+  overflow: hidden;
+  padding-top: 0;
+  position: relative;
+  width: 916px;
+}
+.sm-cont .slider-menu {
+  left: 7px;
+  padding-left: 0px;
+  padding-top: 20px;
+  position: absolute;
+  width: 220px;
+  z-index: 9;
+}
+
+p.game-timer {
+  text-align: left;
+}
+.rs-form div.form-group {
+  margin-top: 17px;
+}
+.welcome, .accnt-uname {
+  position: relative;
+  top: -4px;
+}
+.forget-pwd dd.to-fpwdf {
+  margin-left: 85px;
+}
+.rs-form p {
+  margin-top: 21px;
+}
+.fpwdf-btns .form-submit, .ua-btn .ua-confirm {
+  left: -3px;
+  position: relative;
+}
+.to-fpwd {
+  margin-left: 6px;
+}
+.rs-form .v-mid {
+  margin-top: 8px;
+  vertical-align: middle;
+  display: block
+  
+}
+.rs-cont-fpwdf h2 {
+  position: relative;
+  top: 7px;
+}
+.forget-pwd dt {
+  margin-bottom: 6px !important;
+  position: relative;
+  top: -17px;
+}
+.tabs {
+  padding: 30px 20px 15px;
+}
+.reg-form {
+  margin-top: -10px;
+}
+form.reg-form div .err-msg {
+  right: -213px;
+  text-align: left;
+  top: 25px;
+  width: 360px;
+}
+.lt-number-row.inline-block.game-large {
+  left: 0;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  top: 3px;
+}
+.game-large .num-wrp {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("../images/ball2.png");
+  background-origin: padding-box;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  color: #565656;
+  font-size: 21px;
+  height: 150px;
+  line-height: 150px;
+  margin-left: -20px;
+  text-align: center;
+  width: 150px;
+}
+.game-large .num-wrp.selected {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("../images/ball2selected.png");
+  background-origin: padding-box;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  color: #fff;
+}
+.game-large .num-wrp:hover {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("../images/ball2hover2.png");
+  background-origin: padding-box;
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: auto auto;
+  color: #fff;
+  text-shadow: -1px 0 #767d92, 1px 1px #767d92, 1px 0 #767d92, 0 -1px #767d92;
+}
+.reg-page .cs-links {
+  left: -2px;
+  position: relative;
+  top: -4px;
+}
+form.reg-form div .err-msg .the-err-msg, .err-msg .the-err-msg {
+  text-align: left;
+}
+.reg-form .sbmt-center {
+  left: -2px;
+  position: relative;
+  top: 2px;
+}
+form.reg-form div .err-msg .rs-tri, .err-msg .rs-tri {
+  left: 30px;
+}
+.slect-box-custom-medium.show-data .gameList {
+  display: block;
+  height: 320px;
+  padding-top: 20px;
+  top: 70px;
+}
+.topContnerWrp {
+  padding: 0 !important;
+}
+.rs-cont-flcp h2 {
+  display: block;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 95px;
+  position: relative;
+}
+.bx-mov .red {
+  font-size: 21px;
+  font-weight: bold;
+  /*position: absolute;*/
+  top: 27px;
+}
+.bx-dxFix {
+  position: absolute;
+  right: 235px;
+}
+.fx-chFix {
+  position: absolute;
+  right: 230px;
+}
+#teamBettingList{
+  overflow-x: none;
+  overflow-x: auto;
+  height: 271px;
+}
+
+#ghostSlider{
+  background: none;
+  border:0;
+  position: absolute;
+  width: 259px;
+  left: 12px;
+  top: 19px;
+}
+
+
+#ghostSlider .ui-slider-handle{
+  background: url("../images/persliderbtn.png") !important;
+  width: 22px !important;
+  height: 22px !important;
+
+}
+
+#customGameList div.game.selected{
+  color: white;
+  padding-left: 20px;
+}

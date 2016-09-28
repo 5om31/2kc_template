@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html class="full-page">
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta charset="UTF-8">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <title>2000cai | Register</title>
+    <link href="./images/favicon.ico" rel="icon" sizes="48x48">
+    <link rel="stylesheet" type="text/css" href="./css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="./css/dialog_box.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+</head>
+<body class="reg-page">
+	<div class="container disp-tbl">
+		<div class="wrapper v-mid">
+			<div class="er-k-logo">
+				<img src="images/form-logo.png">
+			</div>
+			<div class="cs-links">
+				<ul class="clearfix">
+					<li id="csLink"><a href="javascript:void(0);">在线客服</a></li>
+					<div class="clearfix"></div>
+				</ul>
+			</div>
+			<form class="reg-form" novalidate="" id="registerForm">
+				<div class="form-group rs-uname lg-input-text">
+					<input class="form-control ch-inpt" type="text" data-valid="username" name="username" placeholder="账号" required="" />
+					<div class="err-msg">
+						<div class="err-cont">
+							<span class="rs-tri"></span>
+							<span class="the-err-msg" data-errMsg="register_username"></span>
+						</div>
+					</div>					
+				</div>
+				<div class="form-group rs-pwd lg-input-text">
+					<input class="form-control ch-inpt" type="password" data-valid="alphaNum" data-minLength="6" data-maxLength="16" name="pass" placeholder="登录密码" required="" />
+					<div class="err-msg">
+						<div class="err-cont">
+							<span class="rs-tri"></span>
+							<span class="the-err-msg" data-errMsg="register_pass"></span>
+						</div>
+					</div>					
+				</div>
+				<div class="form-group rs-cnfrm-pwd lg-input-text">
+					<input class="form-control ch-inpt" type="password" data-valid="alphaNum" name="conPass" placeholder="确认密码" required="" />
+					<div class="err-msg">
+						<div class="err-cont">
+							<span class="rs-tri"></span>
+							<span class="the-err-msg" data-errMsg="register_conPass"></span>
+						</div>
+					</div>					
+				</div>
+				<div class="sbmt-center">
+					<input type="reset" class="form-reset hide" value="" />
+					<input class="form-submit red-submt-btn" type="button" value="提交注册" />
+				</div>
+				<div class="checkbox">
+					<input id="check1" type="checkbox" name="terms" value="check1" class="form-control" required="" checked="">
+					<label for="check1" class="reg-checked checkicon" onselectstart="return false;"><span>我已阅读并同意相关</span> <a href="javascript:void(0);" id="termsAndCondition">《 用户协议 》</a></label>
+				</div>
+				<div class="have-login">
+					<a href="/">已有帐号登录</a>
+				</div>
+			</form>
+			<div class="footer">
+				<p>© 2000彩版权所有 | 18+ 创新博弈 成功从2000彩开始</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Javascript Libraries and Plugins -->
+	<script type="text/javascript" src="./js/lib/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="./js/lib/jquery.i18n.properties-1.0.9.js"></script>
+	<script type="text/javascript" src="./js/lib/RSA-lib.js"></script>
+	<script type="text/javascript" src="./js/lib/tcg-lib.js"></script>
+	<script type="text/javascript" src="./js/lib/placeholder.jquery.js"></script>
+
+	<!-- Custom Javascript -->
+	<script type="text/javascript" src="./js/2kc-register.js"></script> 
+
+</body>
+</html>

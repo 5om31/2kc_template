@@ -1,0 +1,105 @@
+input,textarea{outline:none;}
+#dialog_box_container{
+    font-size:15px;
+    background-color: #171939;
+    color: #FFFFFF;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    behavior: url("../css3pie/PIE.htc");
+    width: 379px;
+    height: 259px;
+    padding-top: 1px;
+    box-shadow: 0px 9px 27px rgba(0,0,0,0.75);
+}
+#dialog_box_title{
+    margin: 31px 0px 20px 0px;
+    height: 56px;
+    width:100%;
+}
+#dialog_box_icon{
+    width:56px;
+    height:53px;
+    margin:0 auto;
+    margin-left: 43.5%\9;
+}
+#dialog_box_icon.alerts,#dialog_box_icon.confirm{
+    background:url("../images/dialogbox/buttons.png") no-repeat -125px -57px;
+    width: 56px;
+    height: 50px;
+}
+#dialog_box_icon.success{
+    background:url("../images/dialogbox/buttons.png") no-repeat -125px -112px;
+    width: 53px;
+    height: 53px;
+}
+#dialog_box_icon.errors{
+    background:url("../images/dialogbox/buttons.png") no-repeat -125px 0px;
+    width: 53px;
+    height: 53px;
+}
+#dialog_box_content{
+    width:100%;
+    height:auto;
+    margin: 0px 0px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+}
+#dialog_box_button{
+    width:100%;
+    text-align: center;
+    margin: 41px 0px 41px 0px;
+}
+#dialog_box_ok,#dialog_box_cancel{
+    font-size:15px;
+    width: 119px;
+    height: 39px;
+    border: 0;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #FFFFFF;
+    behavior: url("../css3pie/PIE.htc");
+}
+#dialog_box_ok{
+    background: url("../images/dialogbox/buttons.png") no-repeat 0px -1px;
+    margin: 0px 10px 0px 0px;
+    box-shadow: 0px 5px 18px rgba(255,0,0,0.34);
+}
+#dialog_box_ok:hover{
+    background: url("../images/dialogbox/buttons.png") no-repeat 0px -41px;
+    box-shadow: 0px 5px 18px rgba(255,0,0,0.19);
+}
+#dialog_box_cancel{
+    background: url("../images/dialogbox/buttons.png") no-repeat 0px -81px;
+}
+#dialog_box_cancel:hover{
+    background: url("../images/dialogbox/buttons.png") no-repeat 0px -121px;
+}
+#theme_popup{
+    width: 400px;
+    height:300px;
+    margin: 0px 0px;
+}
+#popup_close {
+  background: rgba(0, 0, 0, 0) url("../images/dialogbox/buttons.png") no-repeat scroll -189px 0;
+  border-radius: 20px;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+  float: right;
+  height: 42px;
+  margin-right: -11px;
+  margin-top: -18px;
+  padding: 0;
+  position: relative;
+  width: 42px;
+  behavior: url("../css3pie/PIE.htc");
+  z-index: 9;
+}
+#loading{
+    background: url("../images/loading.gif") no-repeat;
+    width:129px;
+    height:129px;
+}
