@@ -31,7 +31,7 @@ body *
 
 
 .icon {
-	  background-image: url("../images/icons.png");
+	  background-image: url("/images/2kc/icons.png");
 }
 
 .btn {
@@ -228,15 +228,15 @@ dl.sub-menu-content {
 } */
 
 .login-ico {
-    background: url("../images/icons.png") -80px -370px;
+    background: url("/images/2kc/icons.png") -80px -370px;
 }
 
 .money-ico {
-    background: url("../images/icons.png") -80px -405px;
+    background: url("/images/2kc/icons.png") -80px -405px;
 }
 
 .logout-ico a, .logout-ico span {
-    background: url("../images/icons.png") no-repeat;
+    background: url("/images/2kc/icons.png") no-repeat;
 } 
 
 /* .logout-ico:hover {
@@ -310,7 +310,7 @@ dl.sub-menu-content {
 
 .sb-icons {
 	height: 53px;
-	background-image: url("../images/icons.png");
+	background-image: url("/images/2kc/icons.png");
 	width: auto;
 }
 
@@ -429,7 +429,7 @@ dl.sub-menu-content {
   background-attachment: scroll;
   background-clip: border-box;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("../images/icons.png");
+  background-image: url("/images/2kc/icons.png");
   background-origin: padding-box;
   background-position: 0 -99px;
   background-repeat: repeat;
@@ -445,7 +445,7 @@ dl.sub-menu-content {
 .fx11x5 {
     height: 60px;
     width: 65px;
-    background: url("../images/icons.png");
+    background: url("/images/2kc/icons.png");
 	background-position: -0px -163px;
     text-indent: 70px;
 }
@@ -453,7 +453,7 @@ dl.sub-menu-content {
 .LF {
     height: 60px;
     width: 65px;
-    background: url("../images/icons.png");
+    background: url("/images/2kc/icons.png");
 	background-position: -0px -225px;
     text-indent: 70px;
 }
@@ -461,28 +461,28 @@ dl.sub-menu-content {
 .pvp_game {
     height: 60px;
     width: 65px;
-    background: url("../images/icons.png");
+    background: url("/images/2kc/icons.png");
 	background-position: -0px -289px;
     text-indent: 70px;
 }
 
 .slider-menu .sm-link:hover .SSC {
-	background: url("../images/icons.png"); 
+	background: url("/images/2kc/icons.png"); 
 	background-position: -63px -99px;
 }
 
 .slider-menu .sm-link:hover .fx11x5 {
-	background: url("../images/icons.png");
+	background: url("/images/2kc/icons.png");
 	background-position: -63px -163px;
 }
 
 .slider-menu .sm-link:hover .LF {
-	background: url("../images/icons.png");
+	background: url("/images/2kc/icons.png");
 	background-position: -63px -225px;
 }
 
 .slider-menu .sm-link:hover .pvp_game {
-	background: url("../images/icons.png");
+	background: url("/images/2kc/icons.png");
 	background-position: -63px -289px;
 }
 /*************************sidebar*/
@@ -509,7 +509,7 @@ dl.sub-menu-content {
   background-attachment: scroll;
   background-clip: border-box;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("../images/icons.png");
+  background-image: url("/images/2kc/icons.png");
   background-origin: padding-box;
   background-position: -7px -19px;
   background-repeat: repeat;
@@ -551,7 +551,7 @@ dl.sub-menu-content {
 .ch-inpt {
   background-clip: border-box;
   background-color: transparent;
-  background-image: url("../images/icons.png");
+  background-image: url("/images/2kc/icons.png");
   background-origin: padding-box;
   background-position: -69px 146px;
   background-repeat: repeat;
@@ -569,7 +569,7 @@ dl.sub-menu-content {
 
 .sbmt-center {
   background-color: transparent;
-  background-image: url("../images/icons.png");
+  background-image: url("/images/2kc/icons.png");
   background-origin: padding-box;
   background-position: -57px 97px;
   background-repeat: repeat;
@@ -600,7 +600,7 @@ dl.sub-menu-content {
 }
 .side-bg {
   background-color: #dfd8f7;
-  background-image: url("../images/side.jpg");
+  background-image: url("/images/2kc/side.jpg");
   background-repeat: repeat-x;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -701,7 +701,7 @@ dl.sub-menu-content {
   background-attachment: scroll;
   background-clip: border-box;
   background-color: #ff0000;
-  background-image: url("../images/red.png");
+  background-image: url("/images/2kc/red.png");
   background-origin: padding-box;
   background-position: 0 0;
   background-repeat: repeat-x;
@@ -788,28 +788,28 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a271fb', end
   width: 99px;
 }
 .CQSSC .box-title {
-  background-image: url("../images/box-game-1.png");
+  background-image: url("/images/2kc/box-game-1.png");
   display: block;
   height: 70px;
   margin: 0 auto;
   width: 110px;
 }
 .T2KSSC .box-title {
-  background-image: url("../images/box-game-2.png");
+  background-image: url("/images/2kc/box-game-2.png");
   display: block;
   height: 70px;
   width: 107px;
   margin: 0 auto;
 }
 .T2KFFC .box-title {
-  background-image: url("../images/box-game-3.png");
+  background-image: url("/images/2kc/box-game-3.png");
   display: block;
   height: 70px;
   width: 110px;
   margin: 0 auto;
 }
 .box-title4.icon {
-  background-image: url("../images/box-game-4.png");
+  background-image: url("/images/2kc/box-game-4.png");
   display: block;
   height: 70px;
   margin: 0 auto;
@@ -938,7 +938,7 @@ span.bold {
 }
 
 .game-icons {
-	background-image: url("../images/betting-sprites.png");
+	background-image: url("/images/2kc/betting-sprites.png");
 }
 .model_child_content {
 	  border-radius: 0px 10px 10px 0px;
@@ -955,7 +955,7 @@ span.bold {
   behavior: url(./css3pie/PIE.htc);
 }
 .game-jackpot-rb li {
-  background-image: url("../images/betting-sprites.png");
+  background-image: url("/images/2kc/betting-sprites.png");
   background-position: -6px -96px;
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
@@ -1207,7 +1207,7 @@ span.bold {
 }
 
 .cancel-y:hover {
-  background-image: url("../images/betting-sprites.png");
+  background-image: url("/images/2kc/betting-sprites.png");
   background-position: 170px -759px;
 }
 #tab2 .cancel-y {
@@ -1235,7 +1235,7 @@ span.bold {
 
 ul.tab {
   background-color: #f1f1f1;
-  background-image: url("../images/b1.png");
+  background-image: url("/images/2kc/b1.png");
   background-position: 147px 15px;
   background-repeat: no-repeat;
   list-style-type: none;
@@ -1511,7 +1511,7 @@ li.icon-4-con:hover .icon-4 {
 
 
 .icon-3-con {
-  background: url(../images/b1.png);
+  background: url(/images/2kc/b1.png);
   background-repeat: no-repeat;
   background-position: 110px 15px;
 }
@@ -1538,7 +1538,7 @@ li.icon-4-con {
   background-attachment: scroll;
   background-clip: border-box;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("../images/b1.png");
+  background-image: url("/images/2kc/b1.png");
   background-origin: padding-box;
   background-position: 97px center;
   background-repeat: no-repeat;
@@ -1680,7 +1680,7 @@ li.icon-4-con {
   background-attachment: scroll;
   background-clip: border-box;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("../images/balldflt.png");
+  background-image: url("/images/2kc/balldflt.png");
   background-origin: padding-box;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1701,7 +1701,7 @@ li.icon-4-con {
   background-attachment: scroll;
   background-clip: border-box;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("../images/betting-sprites.png");
+  background-image: url("/images/2kc/betting-sprites.png");
   background-origin: padding-box;
   background-position: -143px -210px;
   background-repeat: repeat;
@@ -1717,7 +1717,7 @@ li.icon-4-con {
   background-attachment: scroll;
   background-clip: border-box;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("../images/betting-sprites.png");
+  background-image: url("/images/2kc/betting-sprites.png");
   background-origin: padding-box;
   background-position: -62px -210px;
   background-repeat: repeat;
@@ -1740,7 +1740,7 @@ li.icon-4-con {
     background-attachment: scroll;
     background-clip: border-box;
     background-color: rgba(0, 0, 0, 0);
-    background-image: url("../images/ballhvr.png");
+    background-image: url("/images/2kc/ballhvr.png");
     background-origin: padding-box;
     background-position: center center;
     background-repeat: no-repeat;
@@ -1755,7 +1755,7 @@ li.icon-4-con {
   background-attachment: scroll;
   background-clip: border-box;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("../images/ballselct.png");
+  background-image: url("/images/2kc/ballselct.png");
   background-origin: padding-box;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1822,7 +1822,7 @@ li.icon-4-con {
   background-attachment: scroll;
   background-clip: border-box;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("../images/betting-sprites.png");
+  background-image: url("/images/2kc/betting-sprites.png");
   background-origin: padding-box;
   background-position: -63px -160px;
   background-repeat: repeat;
@@ -1842,7 +1842,7 @@ li.icon-4-con {
 }
 .num-wrp:hover .numb {
   color: #fff;
-  background: url(../images/betting-sprites.png);
+  background: url(/images/2kc/betting-sprites.png);
   background-position: -1px -211px;
   text-shadow: -1px 0 #767d92, 1px 1px #767d92, 1px 0px #767d92, 0 -1px #767d92;
 }
@@ -2045,7 +2045,7 @@ body {
 	  color: #fff;
 }
 .sb-deposit.activeOn:before {
-background-image: url("../images/icons.png");
+background-image: url("/images/2kc/icons.png");
 background-position: -565px -7px;
 content: " ";
 display: block;
@@ -2069,7 +2069,7 @@ z-index: -1;
   background-attachment: scroll;
   background-clip: border-box;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("../images/icons.png");
+  background-image: url("/images/2kc/icons.png");
   background-origin: padding-box;
   background-position: -110px -424px;
   background-repeat: repeat;
@@ -2118,7 +2118,7 @@ z-index: -1;
   background-attachment: scroll;
   background-clip: border-box;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("../images/icons.png");
+  background-image: url("/images/2kc/icons.png");
   background-origin: padding-box;
   background-position: -152px -238px;
   background-repeat: repeat;
@@ -2156,7 +2156,7 @@ z-index: -1;
   cursor: pointer;
 }
 .mem-icon {
-  background: url(../images/mem-icon.png);
+  background: url(/images/2kc/mem-icon.png);
 }
 .profileMember {
   background-position: -392px -88px;
@@ -2362,7 +2362,7 @@ z-index: -1;
   width: 230px;
 } */
 .enable .red-border-bh:hover {
-  background-image: url("../images/betting-sprites.png");
+  background-image: url("/images/2kc/betting-sprites.png");
   background-position: 4px -767px;
 }
 .dira-genaffurl-promotionchannels .slect-box-custom.mem-icon.po-middle {
@@ -2390,7 +2390,7 @@ z-index: -1;
   width: 230px;
 }
 .enable .red-border-bh:active {
-  background: url("../images/betting-sprites.png");
+  background: url("/images/2kc/betting-sprites.png");
   background-position: 0 -826px;
 }
 .enable .red-border-bh .ch-overyd {
@@ -2411,7 +2411,7 @@ z-index: -1;
   background-attachment: scroll;
   background-clip: border-box;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("../images/betting-sprites.png");
+  background-image: url("/images/2kc/betting-sprites.png");
   background-origin: padding-box;
   background-position: 6px 125px;
   background-repeat: repeat;
@@ -2423,7 +2423,7 @@ z-index: -1;
   background-attachment: scroll;
   background-clip: border-box;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("../images/betting-sprites.png");
+  background-image: url("/images/2kc/betting-sprites.png");
   background-origin: padding-box;
   background-position: 6px 64px;
   background-repeat: repeat;
@@ -2750,7 +2750,7 @@ z-index: -1;
   background-attachment: scroll;
   background-clip: border-box;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("../images/bankCard.png");
+  background-image: url("/images/2kc/bankCard.png");
   background-origin: padding-box;
   background-position: 0 0;
   background-repeat: no-repeat;
@@ -2888,7 +2888,7 @@ z-index: -1;
   background-attachment: scroll;
   background-clip: border-box;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("../images/b-yelow.png");
+  background-image: url("/images/2kc/b-yelow.png");
   background-origin: padding-box;
   background-position: 0 0;
   background-repeat: repeat;
@@ -2898,7 +2898,7 @@ z-index: -1;
   background-attachment: scroll;
   background-clip: border-box;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("../images/b-red.png");
+  background-image: url("/images/2kc/b-red.png");
   background-origin: padding-box;
   background-position: 0 0;
   background-repeat: repeat;
@@ -2908,7 +2908,7 @@ z-index: -1;
   background-attachment: scroll;
   background-clip: border-box;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("../images/b-blue.png");
+  background-image: url("/images/2kc/b-blue.png");
   background-origin: padding-box;
   background-position: 0 0;
   background-repeat: repeat;
@@ -2918,7 +2918,7 @@ z-index: -1;
   background-attachment: scroll;
   background-clip: border-box;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("../images/b-gren.png");
+  background-image: url("/images/2kc/b-gren.png");
   background-origin: padding-box;
   background-position: 0 0;
   background-repeat: repeat;
@@ -2928,7 +2928,7 @@ z-index: -1;
   background-attachment: scroll;
   background-clip: border-box;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("../images/b-grey.png");
+  background-image: url("/images/2kc/b-grey.png");
   background-origin: padding-box;
   background-position: 0 0;
   background-repeat: repeat;
@@ -2947,7 +2947,7 @@ color: #27a7f1 !important;
 .n012313 {
   background-attachment: scroll;
   background-clip: border-box;
-  background-image: url("../images/bank/012313.png");
+  background-image: url("/images/2kc/bank/012313.png");
   background-origin: padding-box;
   background-position: 0 0;
   background-repeat: repeat;
@@ -3049,7 +3049,7 @@ color: #27a7f1 !important;
   color: #fff !important;
 }
 .enable .abs-right-red:hover {
-  background-image: url("../images/betting-sprites.png");
+  background-image: url("/images/2kc/betting-sprites.png");
   background-position: 4px -593px !important;
   color: #fff !important;
   height: 62px !important;
@@ -3058,7 +3058,7 @@ color: #27a7f1 !important;
   width: 126px;
 }
 .enable .abs-right-red:active {
-  background-image: url("../images/betting-sprites.png");
+  background-image: url("/images/2kc/betting-sprites.png");
   background-position: 4px -651px !important;
   height: 50px !important;
 }
@@ -3313,7 +3313,7 @@ border-bottom-right-radius: 8px;
 
 }
 .slide-log .slider-menu ul li:before {
-	background-image: url("../images/games-circles.png");
+	background-image: url("/images/2kc/games-circles.png");
 }
 
 .slider-menu .CQSSC:before {
@@ -3675,7 +3675,7 @@ thead {
   width: 0;
 }
 #ui-datepicker-div.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all:before {
-  background: rgba(0, 0, 0, 0) url("../images/c-arrow.png") repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) url("/images/2kc/c-arrow.png") repeat scroll 0 0;
   color: #000;
   content: ".";
   left: 93px;
@@ -3859,7 +3859,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1237a7', end
   background-attachment: scroll;
   background-clip: border-box;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("../images/betting-sprites.png");
+  background-image: url("/images/2kc/betting-sprites.png");
   background-origin: padding-box;
   background-position: -143px -210px;
   background-repeat: repeat;
@@ -3874,7 +3874,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1237a7', end
   width: 80px;
 }
 .ch-xs {
-  background: rgba(0, 0, 0, 0) url("../images/betting-sprites.png") repeat scroll -143px -210px;
+  background: rgba(0, 0, 0, 0) url("/images/2kc/betting-sprites.png") repeat scroll -143px -210px;
   padding: 4px 18px 9px 10px;
   position: absolute;
   text-align: center;
@@ -3898,7 +3898,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1237a7', end
   background-attachment: scroll;
   background-clip: border-box;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("../images/submenu.png");
+  background-image: url("/images/2kc/submenu.png");
   background-origin: padding-box;
   background-position: 0 0;
   display: inline-block !important;
@@ -3927,7 +3927,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1237a7', end
   background-attachment: scroll;
   background-clip: border-box;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("../images/c-arrow.png");
+  background-image: url("/images/2kc/c-arrow.png");
   background-origin: padding-box;
   background-repeat: no-repeat;
   background-size: auto auto;
@@ -3975,7 +3975,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#14061b', end
   background-attachment: scroll;
   background-clip: border-box;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("../images/icons.png");
+  background-image: url("/images/2kc/icons.png");
   background-origin: padding-box;
   background-position: -215px -71px;
   background-repeat: repeat;
@@ -3991,7 +3991,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#14061b', end
   background-attachment: scroll;
   background-clip: border-box;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("../images/icons.png");
+  background-image: url("/images/2kc/icons.png");
   background-origin: padding-box;
   background-position: -250px -71px;
   background-repeat: repeat;
@@ -4006,7 +4006,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#14061b', end
   background-attachment: scroll;
   background-clip: border-box;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("../images/submenu.png");
+  background-image: url("/images/2kc/submenu.png");
   background-origin: padding-box;
   background-position: right center;
   background-repeat: repeat-y;
@@ -4045,7 +4045,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#14061b', end
   background-attachment: scroll;
   background-clip: border-box;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("../images/icons.png");
+  background-image: url("/images/2kc/icons.png");
   background-origin: padding-box;
   background-position: -228px -110px !important;
   background-repeat: repeat;
@@ -4066,7 +4066,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#14061b', end
   background-attachment: scroll;
   background-clip: border-box;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("../images/icons.png");
+  background-image: url("/images/2kc/icons.png");
   background-origin: padding-box;
   background-position: -228px -160px !important;
   background-repeat: repeat;
@@ -4087,7 +4087,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#14061b', end
   background-attachment: scroll;
   background-clip: border-box;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("../images/icons.png");
+  background-image: url("/images/2kc/icons.png");
   background-origin: padding-box;
   background-position: -228px -212px !important;
   background-repeat: repeat;
@@ -4119,7 +4119,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#14061b', end
   background-attachment: scroll;
   background-clip: border-box;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("../images/icons.png");
+  background-image: url("/images/2kc/icons.png");
   background-origin: padding-box;
   background-position: -228px -265px !important;
   background-repeat: repeat;
@@ -4176,7 +4176,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f0516', end
   display: inline-block;
 }
  .abal-cont {
-  background: rgba(0, 0, 0, 0) url("../images/mem-icon.png") no-repeat scroll -3px -94px;
+  background: rgba(0, 0, 0, 0) url("/images/2kc/mem-icon.png") no-repeat scroll -3px -94px;
   height: 37px;
   line-height: 40px;
   margin: 0 auto;
@@ -4228,7 +4228,7 @@ ul.hp-links li {
 /**************************************Bank Card*/
 
 .bankLogo-Card {
-  background: url("../images/bankLogo.png");
+  background: url("/images/2kc/bankLogo.png");
   display: inline-block;
   height: 40px;
   left: 10px;
@@ -4316,7 +4316,7 @@ ul.hp-links li {
   margin-left: 0;
 }
 .box-title {
-	background-image: url("../images/hotgames.png");
+	background-image: url("/images/2kc/hotgames.png");
 	  display: block;
     height: 70px;
     margin: 0 auto;
@@ -4382,7 +4382,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#257ad1', end
   background-position: -736px -21px;
 }
 .XJSSC .box-title {
-  background-image: url("../images/box-game-4.png");
+  background-image: url("/images/2kc/box-game-4.png");
 }
 .game-icons.lot-tab2.inline-block.active {
   background-position: -190px -51px;
@@ -4450,7 +4450,7 @@ behavior: url(./css3pie/PIE.htc);
   margin: 3px 5px;
 }
 #drawResult .ball-rolling {
-  background: rgba(0, 0, 0, 0) url("../images/ball-ani.gif") no-repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) url("/images/2kc/ball-ani.gif") no-repeat scroll 0 0;
 }
 .ch-history-con-right .alignright {
   float: none;
@@ -4466,7 +4466,7 @@ behavior: url(./css3pie/PIE.htc);
 
 
 .select-game-icon {
-  background-image: url("../images/mem-game-type.png");
+  background-image: url("/images/2kc/mem-game-type.png");
   background-repeat: no-repeat;
   cursor: pointer;
   margin-top: 1px;
@@ -4585,7 +4585,7 @@ behavior: url(./css3pie/PIE.htc);
   padding: 0 7px;
 }
 .prsnl-game-name span {
-  background-image: url("../images/mem-game-type.png");
+  background-image: url("/images/2kc/mem-game-type.png");
   background-repeat: no-repeat;
   cursor: pointer;
   display: block;
@@ -4701,7 +4701,7 @@ behavior: url(./css3pie/PIE.htc);
   right: 108px;
 }
 .po-middle.watch-input {
-  background: rgba(0, 0, 0, 0) url("../images/betting-sprites.png") repeat scroll -1051px -105px;
+  background: rgba(0, 0, 0, 0) url("/images/2kc/betting-sprites.png") repeat scroll -1051px -105px;
   padding: 8px 6px;
   text-align: center;
   width: 67px;
@@ -4713,7 +4713,7 @@ behavior: url(./css3pie/PIE.htc);
   margin: 0;
 }
 .slider-personal {
-  background: rgba(0, 0, 0, 0) url("../images/perslider.png") no-repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) url("/images/2kc/perslider.png") no-repeat scroll 0 0;
   height: 20px;
   width: 280px;
 }
@@ -4721,7 +4721,7 @@ behavior: url(./css3pie/PIE.htc);
   background-attachment: scroll;
   background-clip: border-box;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("../images/persliderbtn.png");
+  background-image: url("/images/2kc/persliderbtn.png");
   background-origin: padding-box;
   background-position: 0 0;
   background-repeat: no-repeat;
@@ -4887,7 +4887,7 @@ form.reg-form div .err-msg {
   background-attachment: scroll;
   background-clip: border-box;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("../images/ball2.png");
+  background-image: url("/images/2kc/ball2.png");
   background-origin: padding-box;
   background-position: center center;
   background-repeat: no-repeat;
@@ -4904,7 +4904,7 @@ form.reg-form div .err-msg {
   background-attachment: scroll;
   background-clip: border-box;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("../images/ball2selected.png");
+  background-image: url("/images/2kc/ball2selected.png");
   background-origin: padding-box;
   background-position: center center;
   background-repeat: no-repeat;
@@ -4915,7 +4915,7 @@ form.reg-form div .err-msg {
   background-attachment: scroll;
   background-clip: border-box;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("../images/ball2hover2.png");
+  background-image: url("/images/2kc/ball2hover2.png");
   background-origin: padding-box;
   background-position: 0 0;
   background-repeat: repeat;
@@ -4987,7 +4987,7 @@ form.reg-form div .err-msg .rs-tri, .err-msg .rs-tri {
 
 
 #ghostSlider .ui-slider-handle{
-  background: url("../images/persliderbtn.png") !important;
+  background: url("/images/2kc/persliderbtn.png") !important;
   width: 22px !important;
   height: 22px !important;
 
