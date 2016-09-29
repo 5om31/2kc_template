@@ -37,7 +37,7 @@ $(document).ready(function(){
 		events: function(){
 			// Open Terms And COndition
 			$(document).on("click", "#termsAndCondition", function(){
-				var jqxhr = $.ajax({type: "GET", url: "/xml/userAgreement.xml", async: false}).responseText;
+				var jqxhr = $.ajax({type: "GET", url: "/xml/userAgreement.html", async: false}).responseText;
 				// TCG.Ajax({ url: "./xml/userAgreement.xml", dataType: "html", cache: false }, function(txt){
 				    TCG.WinOpen({ width: "700px", height: "600px", text: jqxhr }, function(){
 				    	console.log("test");
