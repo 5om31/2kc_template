@@ -38,9 +38,7 @@ $(document).ready(function(){
 			// Open Terms And COndition
 			$(document).on("click", "#termsAndCondition", function(){
 				// TCG.Ajax({ url: "./xml/userAgreement.xml", dataType: "html", cache: false }, function(txt){
-				    TCG.WinOpen({ width: "700px", height: "600px", text: $.load("/xml/userAgreement.xml") }, function(){
-				    	console.log("test");
-				    });
+				    TCG.WinOpen({ width: "700px", height: "600px", text: $.get("/xml/userAgreement.xml",function(data){return data}),});
 				 // });
 			});
 
